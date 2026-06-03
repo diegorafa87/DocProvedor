@@ -103,7 +103,13 @@ const CadastroSCM = ({ cnpj, razaoSocial }) => {
     e.preventDefault();
     // Não salva mais o CNPJ na linha, pois será sempre do cliente
     setLinhas([...linhas, { ...form }]);
-    setForm({});
+    // Mantém ano, mês, estado e município para não requerer seleção novamente
+    setForm({
+      ANO: form.ANO || '',
+      MES: form.MES || '',
+      ESTADO: form.ESTADO || '',
+      COD_IBGE: form.COD_IBGE || ''
+    });
   };
 
   // Função para corrigir inconsistências nas linhas salvas

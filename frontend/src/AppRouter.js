@@ -1,12 +1,10 @@
 import HistoricoSCMPage from './pages/HistoricoSCMPage';
 import CadastroRapidoCliente from './components/CadastroRapidoCliente';
 import AdminLogin from './components/AdminLogin';
-import PaginaAcompanhamentoPostes from './pages/AcompanhamentoPostesPage';
 import CompartilhamentoPostesPage from './pages/CompartilhamentoPostesPage';
 import CertidoesPage from './pages/CertidoesPage';
 import ContratosPage from './pages/ContratosPage';
 import EstacoesPage from './pages/EstacoesPage';
-import PaginaAcompanhamentoInfra from './pages/AcompanhamentoInfraPage';
 import SubmenuAcessoCampos from './pages/SubmenuAcessoCampos';
 import EnlacesPropriosPage from './pages/EnlacesPropriosPage';
 import EnlacesContratadosPage from './pages/EnlacesContratadosPage';
@@ -20,13 +18,10 @@ import EditarPerfil from './pages/EditarPerfil';
 import PaginaCadastroSCM from './pages/CadastroSCMPage';
 
 import PaginaCadastroTVpA from './pages/PaginaCadastroTVpA';
-import PaginaAcompanhamentoTVpA from './pages/AcompanhamentoTVpAPage';
 
 import PaginaCadastroSTFC from './pages/CadastroSTFCPage';
 import RelatorioPrimeiroSemestre from './pages/RelatorioPrimeiroSemestre';
 import RelatorioSegundoSemestre from './pages/RelatorioSegundoSemestre';
-import PaginaAcompanhamentoRelatorioEconomico from './pages/AcompanhamentoRelatorioEconomicoPage';
-import PaginaAcompanhamentoSTFC from './pages/AcompanhamentoSTFCPage';
 
 const AppRouter = () => {
   // Removido o estado admin, pois a autenticação é controlada pelo Firebase
@@ -64,17 +59,12 @@ const AppRouter = () => {
         <Route path="/scm/cadastro" element={<PrivateRoute><PaginaCadastroSCM /></PrivateRoute>} />
         <Route path="/editar-perfil/:id" element={<PrivateRoute><EditarPerfil /></PrivateRoute>} />
         <Route path="/tvpa/cadastro" element={<PrivateRoute><PaginaCadastroTVpA /></PrivateRoute>} />
-        <Route path="/tvpa/acompanhamento" element={<PrivateRoute><PaginaAcompanhamentoTVpA /></PrivateRoute>} />
         <Route path="/stfc/cadastro" element={<PrivateRoute><PaginaCadastroSTFC /></PrivateRoute>} />
-        <Route path="/stfc/acompanhamento" element={<PrivateRoute><PaginaAcompanhamentoSTFC /></PrivateRoute>} />
         <Route path="/relatorio-economico/primeiro-semestre" element={<PrivateRoute><RelatorioPrimeiroSemestre /></PrivateRoute>} />
         <Route path="/relatorio-economico/segundo-semestre" element={<PrivateRoute><RelatorioSegundoSemestre /></PrivateRoute>} />
-        <Route path="/relatorio-economico/acompanhamento" element={<PrivateRoute><PaginaAcompanhamentoRelatorioEconomico /></PrivateRoute>} />
         <Route path="/infra/estacoes" element={<PrivateRoute><EstacoesPage clienteInfo={clienteInfo} /></PrivateRoute>} />
         <Route path="/infra/enlaces-proprios" element={<PrivateRoute><EnlacesPropriosPage /></PrivateRoute>} />
         <Route path="/infra/enlaces-contratados" element={<PrivateRoute><EnlacesContratadosPage /></PrivateRoute>} />
-        <Route path="/infra/acompanhamento" element={<PrivateRoute><PaginaAcompanhamentoInfra razaoSocial={clienteInfo?.props?.children?.[0]?.props?.children || ''} /></PrivateRoute>} />
-        <Route path="/postes/acompanhamento" element={<PrivateRoute><PaginaAcompanhamentoPostes /></PrivateRoute>} />
         <Route path="/gerenciador/acesso" element={<PrivateRoute><SubmenuAcessoCampos /></PrivateRoute>} />
         <Route path="/contratos-e-certidoes/contratos" element={<PrivateRoute><ContratosPage /></PrivateRoute>} />
         <Route path="/contratos-e-certidoes/certidoes" element={<PrivateRoute><CertidoesPage /></PrivateRoute>} />

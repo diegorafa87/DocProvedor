@@ -84,29 +84,6 @@ const MenuLateral = ({ voltarLink, clienteInfo }) => {
         if (match && match[1]) id = match[1];
       }
       navigate(`/scm/cadastro${id ? `?id=${id}` : ''}`);
-    } else if (itemLabel === 'SCM' && subLabel.toUpperCase() === 'ACOMPANHAMENTO SCM') {
-      // Sempre tenta obter o idCliente da URL
-      let id = idCliente;
-      if (!id) {
-        const match = location.pathname.match(/cliente\/(\d+)/);
-        if (match && match[1]) id = match[1];
-      }
-      // Busca razaoSocial e cnpj do localStorage
-      let razaoSocial = '';
-      let cnpj = '';
-      try {
-        const salvo = localStorage.getItem('clienteSelecionado');
-        if (salvo) {
-          const obj = JSON.parse(salvo);
-          razaoSocial = obj.razaoSocial || '';
-          cnpj = obj.cnpj || '';
-        }
-      } catch {}
-      let url = `/scm/cadastro${id ? `?id=${id}&aba=acompanhamento` : '?aba=acompanhamento'}`;
-      if (razaoSocial && cnpj) {
-        url += `&razaoSocial=${encodeURIComponent(razaoSocial)}&cnpj=${encodeURIComponent(cnpj)}`;
-      }
-      navigate(url);
     } else if (itemLabel === 'TVpA' && subLabel === 'Novo Relatório') {
       // Busca o CNPJ do cliente do localStorage
       let cnpj = '';
@@ -123,8 +100,6 @@ const MenuLateral = ({ voltarLink, clienteInfo }) => {
       } else {
         navigate('/tvpa/cadastro');
       }
-    } else if (itemLabel === 'TVpA' && subLabel.toUpperCase() === 'ACOMPANHAMENTO TVPA') {
-      navigate('/tvpa/acompanhamento');
     } else if (itemLabel === 'STFC' && subLabel === 'Novo Relatório STFC') {
       let cnpj = params.get('cnpj');
       if (!cnpj && window.location.pathname.match(/cliente\/(\d+)/)) {
@@ -139,30 +114,22 @@ const MenuLateral = ({ voltarLink, clienteInfo }) => {
       } else {
         navigate('/stfc/cadastro');
       }
-    } else if (itemLabel === 'STFC' && subLabel.toUpperCase() === 'ACOMPANHAMENTO STFC') {
-      navigate('/stfc/acompanhamento');
     } else if (itemLabel === 'RELATÓRIO ECONÔMICO' && subLabel === 'Primeiro Semestre') {
       navigate('/relatorio-economico/primeiro-semestre');
     } else if (itemLabel === 'RELATÓRIO ECONÔMICO' && subLabel === 'Segundo Semestre') {
       navigate('/relatorio-economico/segundo-semestre');
-    } else if (itemLabel === 'RELATÓRIO ECONÔMICO' && subLabel === 'Acompanhamento Rel. Econômico') {
-      navigate('/relatorio-economico/acompanhamento');
     } else if (itemLabel === 'INFRA' && subLabel === 'Estações') {
       navigate('/infra/estacoes');
     } else if (itemLabel === 'INFRA' && subLabel === 'Enlaces Próprios') {
       navigate('/infra/enlaces-proprios');
     } else if (itemLabel === 'INFRA' && subLabel === 'Enlaces Contratados') {
       navigate('/infra/enlaces-contratados');
-    } else if (itemLabel === 'INFRA' && subLabel === 'Acompanhamento Infra') {
-      navigate('/infra/acompanhamento');
     } else if (itemLabel === 'CONTRATOS E CERTIDÕES' && subLabel === 'Contratos') {
       navigate('/contratos-e-certidoes/contratos');
     } else if (itemLabel === 'CONTRATOS E CERTIDÕES' && subLabel === 'Certidões') {
       navigate('/contratos-e-certidoes/certidoes');
     } else if (itemLabel === 'POSTES' && subLabel === 'Compartilhamento') {
       navigate('/postes/compartilhamento');
-    } else if (itemLabel === 'POSTES' && subLabel === 'Acompanhamento') {
-      navigate('/postes/acompanhamento');
     } else {
       alert(`Clicou em ${subLabel}`);
     }

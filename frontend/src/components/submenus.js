@@ -1,31 +1,25 @@
 // Modelo de submenus para os menus principais
 export const submenus = {
   POSTES: [
-    { label: 'Compartilhamento' },
-    { label: 'Acompanhamento' }
+    { label: 'Compartilhamento' }
   ],
   SCM: [
-    { label: 'Novo Relatório' },
-    { label: 'Acompanhamento SCM' }
+    { label: 'Novo Relatório' }
   ],
   TVpA: [
-    { label: 'Novo Relatório' },
-    { label: 'Acompanhamento TVpA' }
+    { label: 'Novo Relatório' }
   ],
   STFC: [
-    { label: 'Novo Relatório STFC' },
-    { label: 'Acompanhamento STFC' }
+    { label: 'Novo Relatório STFC' }
   ],
   'RELATÓRIO ECONÔMICO': [
     { label: 'Primeiro Semestre' },
-    { label: 'Segundo Semestre' },
-    { label: 'Acompanhamento Rel. Econômico' }
+    { label: 'Segundo Semestre' }
   ],
   INFRA: [
     { label: 'Estações' },
     { label: 'Enlaces Próprios' },
-    { label: 'Enlaces Contratados' },
-    { label: 'Acompanhamento Infra' }
+    { label: 'Enlaces Contratados' }
   ],
   GERENCIADOR: [
     { label: 'Acesso' }
