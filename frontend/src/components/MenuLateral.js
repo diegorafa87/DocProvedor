@@ -12,8 +12,6 @@ const itens = [
   { label: 'INFRA', icon: '🏗️' },
   { label: 'POSTES', icon: '🪵' },
   { label: 'GERENCIADOR', icon: '👤' },
-  { label: 'FINANCEIRO', icon: '💲' },
-  { label: 'CONTRATOS E CERTIDÕES', icon: '📄' },
   { label: 'EDITAR PERFIL', icon: '✏️' },
 ];
 
@@ -124,10 +122,6 @@ const MenuLateral = ({ voltarLink, clienteInfo }) => {
       navigate('/infra/enlaces-proprios');
     } else if (itemLabel === 'INFRA' && subLabel === 'Enlaces Contratados') {
       navigate('/infra/enlaces-contratados');
-    } else if (itemLabel === 'CONTRATOS E CERTIDÕES' && subLabel === 'Contratos') {
-      navigate('/contratos-e-certidoes/contratos');
-    } else if (itemLabel === 'CONTRATOS E CERTIDÕES' && subLabel === 'Certidões') {
-      navigate('/contratos-e-certidoes/certidoes');
     } else if (itemLabel === 'POSTES' && subLabel === 'Compartilhamento') {
       navigate('/postes/compartilhamento');
     } else {

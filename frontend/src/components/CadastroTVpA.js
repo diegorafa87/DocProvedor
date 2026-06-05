@@ -1,6 +1,6 @@
 import API_URL from '../services/api';
 import { IconDownload, IconTrash } from './IconsHistorico';
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 
 // Ordem e nomes dos campos para o CSV padrão ANSAT
 const camposCSV = [
@@ -49,14 +49,15 @@ const codUfToSigla = {
 };
 
 const CadastroTVpA = ({ cnpj }) => {
-  // Remove pontuação do CNPJ
+  const historicoKey = useMemo(() => `historicoTVpA_${cnpj || ''}`, [cnpj]);
   const [form, setForm] = useState({});
-  const historicoKey = `historicoTVpA_${cnpj}`;
-  const [historico, setHistorico] = useState(() => {
-    const salvo = localStorage.getItem(historicoKey);
-    return salvo ? JSON.parse(salvo) : [];
-  });
+  const [historico, setHistorico] = useState([]);
   const [municipios, setMunicipios] = useState([]);
+
+  useEffect(() => {
+    const salvo = localStorage.getItem(historicoKey);
+    setHistorico(salvo ? JSON.parse(salvo) : []);
+  }, [historicoKey]);
 
   useEffect(() => {
     fetch('/municipiosIBGE.json')
@@ -81,11 +82,13 @@ const CadastroTVpA = ({ cnpj }) => {
     // Cabeçalho fixo padrão ANSAT
     const header = camposCSV.join(';');
     // Busca CNPJ do cliente selecionado
-    let cnpjValue = '';
+    let cnpjValue = cnpj || '';
     try {
-      const clienteSel = JSON.parse(localStorage.getItem('clienteSelecionado'));
-      if (clienteSel && clienteSel.cnpj) {
-        cnpjValue = clienteSel.cnpj;
+      if (!cnpjValue) {
+        const clienteSel = JSON.parse(localStorage.getItem('clienteSelecionado'));
+        if (clienteSel && clienteSel.cnpj) {
+          cnpjValue = clienteSel.cnpj;
+        }
       }
     } catch {}
     // Monta as linhas do CSV na ordem correta

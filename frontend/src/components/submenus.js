@@ -23,9 +23,5 @@ export const submenus = {
   ],
   GERENCIADOR: [
     { label: 'Acesso' }
-  ],
-  'CONTRATOS E CERTIDÕES': [
-    { label: 'Contratos' },
-    { label: 'Certidões' }
   ]
 };

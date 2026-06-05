@@ -195,7 +195,7 @@ const CadastroSCM = ({ cnpj, razaoSocial }) => {
       await addSCMHistoricoCSV(novaEntrada);
       // Atualiza histórico local após salvar
       const data = await getSCMHistoricoCSV();
-      setHistorico(deduplicarHistorico(data, cnpj));
+      setHistorico(deduplicarHistorico(data, obterCnpjAtual()));
     } catch {}
   };
 
@@ -213,7 +213,7 @@ const CadastroSCM = ({ cnpj, razaoSocial }) => {
         usuario: item?.usuario
       });
       const data = await getSCMHistoricoCSV();
-      setHistorico(deduplicarHistorico(data, cnpj));
+      setHistorico(deduplicarHistorico(data, obterCnpjAtual()));
     } catch {
       alert('Erro ao excluir arquivo do histórico.');
     }
