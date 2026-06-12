@@ -2,23 +2,27 @@ const fs = require('fs');
 const path = require('path');
 const dbPath = path.join(__dirname, '../db_logs.json');
 
-function lerAcompanhamentoPostes() {
+function lerDB() {
   try {
-    const data = fs.readFileSync(dbPath, 'utf8');
-    const json = JSON.parse(data);
-    return json.acompanhamentoPostes || {};
+    const raw = fs.readFileSync(dbPath, 'utf8');
+    const parsed = JSON.parse(raw);
+    if (Array.isArray(parsed)) {
+      return { logs: parsed, acompanhamentoPostes: {}, acompanhamentoSCM: {} };
+    }
+    return { acompanhamentoPostes: {}, acompanhamentoSCM: {}, ...parsed, logs: parsed.logs || [] };
   } catch (e) {
-    return {};
+    return { logs: [], acompanhamentoPostes: {}, acompanhamentoSCM: {} };
   }
 }
 
-function salvarAcompanhamentoPostes(obj) {
-  let data = {};
-  try {
-    data = JSON.parse(fs.readFileSync(dbPath, 'utf8'));
-  } catch (e) {}
-  data.acompanhamentoPostes = obj;
-  fs.writeFileSync(dbPath, JSON.stringify(data, null, 2));
+function lerAcompanhamentoPostes() {
+  return lerDB().acompanhamentoPostes || {};
+}
+
+function salvarAcompanhamentoPostes(acompanhamentoPostes) {
+  const db = lerDB();
+  db.acompanhamentoPostes = acompanhamentoPostes;
+  fs.writeFileSync(dbPath, JSON.stringify(db, null, 2));
 }
 
 exports.getPostesStatus = (req, res) => {

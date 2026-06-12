@@ -1,80 +1,55 @@
-// Excluir entrada do histórico de geração de CSV SCM por nome, data e usuario
-exports.deleteSCMHistoricoCSV = (req, res) => {
-  const dbPath = path.join(__dirname, '../db_logs.json');
-  const { nome, nomeDetalhes, data, usuario } = req.body;
-
-  const normalizarTexto = (valor = '') => String(valor).trim().toLowerCase();
-  const obterNomeArquivo = (item = {}) => item.nome || item?.detalhes?.nomeArquivo || '';
-
-  const nomeAlvo = normalizarTexto(nome || nomeDetalhes || '');
-  const dataAlvo = normalizarTexto(data || '');
-  const usuarioAlvo = normalizarTexto(usuario || '');
-
-  let logs = [];
-  try {
-    const fileData = fs.readFileSync(dbPath, 'utf8');
-    const json = JSON.parse(fileData);
-    logs = Array.isArray(json) ? json : (json.logs || []);
-  } catch (e) {}
-
-  const novaLista = logs.filter(item => {
-    if (item.acao !== 'GERAR_CSV_SCM') return true;
-
-    if (!nomeAlvo && !dataAlvo && !usuarioAlvo) {
-      return true;
-    }
-
-    const nomeItem = normalizarTexto(obterNomeArquivo(item));
-    const dataItem = normalizarTexto(item.data || '');
-    const usuarioItem = normalizarTexto(item.usuario || '');
-
-    const mesmoNome = nomeAlvo ? nomeItem === nomeAlvo : false;
-    const mesmaData = dataAlvo ? dataItem === dataAlvo : true;
-    const mesmoUsuario = usuarioAlvo ? usuarioItem === usuarioAlvo : true;
-
-    const removerExato = mesmoNome && mesmaData && mesmoUsuario;
-    const removerDuplicadoMesmoArquivo = mesmoNome && mesmoUsuario;
-
-    // Remove o item exato e também entradas duplicadas do mesmo arquivo
-    // com suporte a legado (nome em item.nome ou em item.detalhes.nomeArquivo).
-    return !(removerExato || removerDuplicadoMesmoArquivo);
-  });
-  try {
-    fs.writeFileSync(dbPath, JSON.stringify(novaLista, null, 2));
-    res.json({ success: true });
-  } catch (e) {
-    res.status(500).json({ success: false, error: 'Erro ao excluir histórico' });
-  }
-};
 const fs = require('fs');
 const path = require('path');
 const dbPath = path.join(__dirname, '../db_logs.json');
 
-function lerAcompanhamentoSCM() {
+// ─── Helpers ────────────────────────────────────────────────────────────────
+
+/**
+ * Lê o db_logs.json e retorna sempre um objeto { logs, acompanhamentoSCM, ...resto }.
+ * Caso o arquivo seja um array legado, converte automaticamente.
+ */
+function lerDB() {
   try {
-    const data = fs.readFileSync(dbPath, 'utf8');
-    const json = JSON.parse(data);
-    return json.acompanhamentoSCM || {};
+    const raw = fs.readFileSync(dbPath, 'utf8');
+    const parsed = JSON.parse(raw);
+    if (Array.isArray(parsed)) {
+      // Migração automática: array legado → objeto estruturado
+      return { logs: parsed, acompanhamentoSCM: {} };
+    }
+    return {
+      acompanhamentoSCM: {},
+      ...parsed,
+      logs: parsed.logs || []
+    };
   } catch (e) {
-    return {};
+    return { logs: [], acompanhamentoSCM: {} };
   }
 }
 
-function salvarAcompanhamentoSCM(obj) {
-  let data = {};
-  try {
-    data = JSON.parse(fs.readFileSync(dbPath, 'utf8'));
-  } catch (e) {}
-  data.acompanhamentoSCM = obj;
-  fs.writeFileSync(dbPath, JSON.stringify(data, null, 2));
+/**
+ * Salva o objeto de volta no db_logs.json preservando todas as chaves.
+ */
+function salvarDB(obj) {
+  fs.writeFileSync(dbPath, JSON.stringify(obj, null, 2));
 }
+
+function lerAcompanhamentoSCM() {
+  return lerDB().acompanhamentoSCM || {};
+}
+
+function salvarAcompanhamentoSCM(acompanhamentoSCM) {
+  const db = lerDB();
+  db.acompanhamentoSCM = acompanhamentoSCM;
+  salvarDB(db);
+}
+
+// ─── Exports ─────────────────────────────────────────────────────────────────
 
 exports.getSCMStatus = (req, res) => {
   const { cnpj } = req.params;
   const dados = lerAcompanhamentoSCM();
   res.json(dados[cnpj] || { anosDesligados: {}, anosOcultos: {} });
 };
-
 
 exports.setSCMStatus = (req, res) => {
   const { cnpj } = req.params;
@@ -85,42 +60,72 @@ exports.setSCMStatus = (req, res) => {
   res.json({ success: true });
 };
 
-// Novo: Listar histórico de geração de CSV SCM
+// Listar histórico de geração de CSV SCM
 exports.getSCMHistoricoCSV = (req, res) => {
-  const dbPath = path.join(__dirname, '../db_logs.json');
-  let historico = [];
   try {
-    const data = fs.readFileSync(dbPath, 'utf8');
-    const json = JSON.parse(data);
-    // Suporta tanto array quanto objeto (compatibilidade)
-    const logs = Array.isArray(json) ? json : (json.logs || []);
-    historico = logs
-      .filter((item) => item.acao === 'GERAR_CSV_SCM')
+    const db = lerDB();
+    const historico = db.logs
+      .filter(item => item.acao === 'GERAR_CSV_SCM')
       .sort((a, b) => new Date(b?.data || 0).getTime() - new Date(a?.data || 0).getTime());
-  } catch (e) {}
-  res.json(historico);
+    res.json(historico);
+  } catch (e) {
+    res.json([]);
+  }
 };
 
-// Novo: Adicionar entrada ao histórico de geração de CSV SCM
+// Adicionar entrada ao histórico de geração de CSV SCM
 exports.addSCMHistoricoCSV = (req, res) => {
-  const dbPath = path.join(__dirname, '../db_logs.json');
-  let logs = [];
   try {
-    const data = fs.readFileSync(dbPath, 'utf8');
-    const json = JSON.parse(data);
-    logs = Array.isArray(json) ? json : (json.logs || []);
-  } catch (e) {}
-  const novaEntrada = {
-    ...req.body,
-    acao: req.body?.acao || 'GERAR_CSV_SCM',
-    data: req.body?.data || new Date().toISOString()
-  };
-  // Mantém entradas mais recentes no topo para compatibilidade com o logger global.
-  logs.unshift(novaEntrada);
-  try {
-    fs.writeFileSync(dbPath, JSON.stringify(logs, null, 2));
+    const db = lerDB();
+    const novaEntrada = {
+      ...req.body,
+      acao: req.body?.acao || 'GERAR_CSV_SCM',
+      data: req.body?.data || new Date().toISOString()
+    };
+    // Insere no topo para manter as mais recentes primeiro
+    db.logs.unshift(novaEntrada);
+    salvarDB(db);
     res.json({ success: true });
   } catch (e) {
     res.status(500).json({ success: false, error: 'Erro ao salvar histórico' });
+  }
+};
+
+// Excluir entrada do histórico de geração de CSV SCM por nome, data e usuario
+exports.deleteSCMHistoricoCSV = (req, res) => {
+  const { nome, nomeDetalhes, data, usuario } = req.body;
+
+  const normalizarTexto = (valor = '') => String(valor).trim().toLowerCase();
+  const obterNomeArquivo = (item = {}) => item.nome || item?.detalhes?.nomeArquivo || '';
+
+  const nomeAlvo = normalizarTexto(nome || nomeDetalhes || '');
+  const dataAlvo = normalizarTexto(data || '');
+  const usuarioAlvo = normalizarTexto(usuario || '');
+
+  try {
+    const db = lerDB();
+
+    db.logs = db.logs.filter(item => {
+      if (item.acao !== 'GERAR_CSV_SCM') return true;
+      if (!nomeAlvo && !dataAlvo && !usuarioAlvo) return true;
+
+      const nomeItem = normalizarTexto(obterNomeArquivo(item));
+      const dataItem = normalizarTexto(item.data || '');
+      const usuarioItem = normalizarTexto(item.usuario || '');
+
+      const mesmoNome = nomeAlvo ? nomeItem === nomeAlvo : false;
+      const mesmaData = dataAlvo ? dataItem === dataAlvo : true;
+      const mesmoUsuario = usuarioAlvo ? usuarioItem === usuarioAlvo : true;
+
+      const removerExato = mesmoNome && mesmaData && mesmoUsuario;
+      const removerDuplicadoMesmoArquivo = mesmoNome && mesmoUsuario;
+
+      return !(removerExato || removerDuplicadoMesmoArquivo);
+    });
+
+    salvarDB(db);
+    res.json({ success: true });
+  } catch (e) {
+    res.status(500).json({ success: false, error: 'Erro ao excluir histórico' });
   }
 };

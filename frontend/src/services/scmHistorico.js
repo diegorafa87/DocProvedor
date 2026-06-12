@@ -1,12 +1,3 @@
-export async function deleteSCMHistoricoCSV({ nome, nomeDetalhes, data, usuario }) {
-  const res = await fetch(`${API_URL}/api/acompanhamento-scm/historico/csv`, {
-    method: 'DELETE',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ nome, nomeDetalhes, data, usuario })
-  });
-  if (!res.ok) throw new Error('Erro ao excluir histórico de CSV');
-  return res.json();
-}
 import API_URL from './api';
 
 export async function getSCMHistoricoCSV() {
@@ -22,5 +13,15 @@ export async function addSCMHistoricoCSV(entry) {
     body: JSON.stringify(entry)
   });
   if (!res.ok) throw new Error('Erro ao salvar histórico de CSV');
+  return res.json();
+}
+
+export async function deleteSCMHistoricoCSV({ nome, nomeDetalhes, data, usuario }) {
+  const res = await fetch(`${API_URL}/api/acompanhamento-scm/historico/csv`, {
+    method: 'DELETE',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ nome, nomeDetalhes, data, usuario })
+  });
+  if (!res.ok) throw new Error('Erro ao excluir histórico de CSV');
   return res.json();
 }

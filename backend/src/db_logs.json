@@ -1,966 +1,969 @@
-[
-  {
-    "acao": "GERAR_CSV_SCM",
-    "usuario": "40.219.880/0001-06",
-    "detalhes": {
-      "nomeArquivo": "SCM_LAVAMAIS_HIGIENIZACAO_2026_1.csv",
-      "ano": "2026",
-      "mes": "1",
-      "razaoSocial": "LAVAMAIS_HIGIENIZACAO"
-    },
-    "data": "2026-04-23T10:17:13.330Z"
-  },
-  {
-    "acao": "UPLOAD_PDF_SCM",
-    "usuario": "A Z de Araujo Neto ME",
-    "detalhes": {
-      "nomeArquivo": "COMP_SCM_A_Z_DE_ARAUJO_NETO_ME_2026_JANEIRO.pdf",
-      "ano": 2026,
-      "mes": "Janeiro"
-    },
-    "data": "2026-04-23T10:16:29.544Z"
-  },
-  {
-    "acao": "UPLOAD_PDF_SCM",
-    "usuario": "A Z de Araujo Neto ME",
-    "detalhes": {
-      "nomeArquivo": "COMP_SCM_A_Z_DE_ARAUJO_NETO_ME_2026_JANEIRO.pdf",
-      "ano": 2026,
-      "mes": "Janeiro"
-    },
-    "data": "2026-04-23T10:16:20.734Z"
-  },
-  {
-    "acao": "UPLOAD_PDF_INFRA",
-    "usuario": "ADN Net Telecom LTDA",
-    "detalhes": {
-      "nomeArquivo": "COMP_INFRA_ADN_NET_TELECOM_LTDA_2026_ESTAÇÕES.pdf",
-      "ano": 2026,
-      "item": "Estações"
-    },
-    "data": "2026-04-23T10:14:43.551Z"
-  },
-  {
-    "acao": "GERAR_CSV_SCM",
-    "usuario": "19.897.357/0001-42",
-    "detalhes": {
-      "nomeArquivo": "SCM_ACESSO_PROVEDOR_INTERNET_LTDA_2026_1.csv",
-      "ano": "2026",
-      "mes": "1",
-      "razaoSocial": "ACESSO_PROVEDOR_INTERNET_LTDA"
-    },
-    "data": "2026-04-23T09:04:00.105Z"
-  },
-  {
-    "acao": "GERAR_CSV_SCM",
-    "usuario": "17.869.753/0001-30",
-    "detalhes": {
-      "nomeArquivo": "SCM_A_Z_de_Araujo_Neto_ME_2026_2.csv",
-      "ano": "2026",
-      "mes": "2",
-      "razaoSocial": "A_Z_de_Araujo_Neto_ME"
-    },
-    "data": "2026-04-23T09:01:00.088Z"
-  },
-  {
-    "acao": "GERAR_CSV_SCM",
-    "usuario": "17.869.753/0001-30",
-    "detalhes": {
-      "nomeArquivo": "SCM_A_Z_de_Araujo_Neto_ME_2026_1.csv",
-      "ano": "2026",
-      "mes": "1",
-      "razaoSocial": "A_Z_de_Araujo_Neto_ME"
-    },
-    "data": "2026-04-23T08:59:19.389Z"
-  },
-  {
-    "acao": "ATUALIZAR_STATUS",
-    "usuario": "10.960.804/0001-96",
-    "detalhes": {
-      "id": "1776891748418",
-      "status": "ATIVO"
-    },
-    "data": "2026-04-22T21:02:34.196Z"
-  },
-  {
-    "acao": "CADASTRAR_CLIENTE",
-    "usuario": "10.960.804/0001-96",
-    "detalhes": {
-      "razaoSocial": "L GONZAGA JUNIOR SERVIÇOS DE INTERNET - ME",
-      "email": "gonzaga-junior@hotmail.com",
-      "telefone": "(84) 99698-9649",
-      "consultoria": "RENIO"
-    },
-    "data": "2026-04-22T21:02:28.419Z"
-  },
-  {
-    "acao": "ATUALIZAR_STATUS",
-    "usuario": "02.183.438/0001-88",
-    "detalhes": {
-      "id": "1776692552600",
-      "status": "NOVO"
-    },
-    "data": "2026-04-22T20:39:17.045Z"
-  },
-  {
-    "acao": "GERAR_CSV_SCM",
-    "usuario": "40.219.880/0001-06",
-    "detalhes": {
-      "nomeArquivo": "SCM_LAVAMAIS_HIGIENIZACAO_2026_3.csv",
-      "ano": "2026",
-      "mes": "3",
-      "razaoSocial": "LAVAMAIS_HIGIENIZACAO"
-    },
-    "data": "2026-04-22T19:20:53.512Z"
-  },
-  {
-    "acao": "GERAR_CSV_SCM",
-    "usuario": "40.219.880/0001-06",
-    "detalhes": {
-      "nomeArquivo": "SCM_LAVAMAIS_HIGIENIZACAO_2026_3.csv",
-      "ano": "2026",
-      "mes": "3",
-      "razaoSocial": "LAVAMAIS_HIGIENIZACAO"
-    },
-    "data": "2026-04-22T19:16:43.877Z"
-  },
-  {
-    "acao": "GERAR_CSV_SCM",
-    "usuario": "40.219.880/0001-06",
-    "detalhes": {
-      "nomeArquivo": "SCM_LAVAMAIS_HIGIENIZACAO_2026_3.csv",
-      "ano": "2026",
-      "mes": "3",
-      "razaoSocial": "LAVAMAIS_HIGIENIZACAO"
-    },
-    "data": "2026-04-22T19:05:42.817Z"
-  },
-  {
-    "acao": "GERAR_CSV_SCM",
-    "usuario": "40.219.880/0001-06",
-    "detalhes": {
-      "nomeArquivo": "SCM_LAVAMAIS_HIGIENIZACAO_2026_12.csv",
-      "ano": "2026",
-      "mes": "12",
-      "razaoSocial": "LAVAMAIS_HIGIENIZACAO"
-    },
-    "data": "2026-04-22T19:01:51.300Z"
-  },
-  {
-    "acao": "UPLOAD_PDF_SCM",
-    "usuario": "LAVAMAIS HIGIENIZACAO",
-    "detalhes": {
-      "nomeArquivo": "COMP_SCM_LAVAMAIS_HIGIENIZACAO_2026_MARÇO.pdf",
-      "ano": 2026,
-      "mes": "Março"
-    },
-    "data": "2026-04-22T17:12:58.018Z"
-  },
-  {
-    "acao": "UPLOAD_PDF_SCM",
-    "usuario": "LAVAMAIS HIGIENIZACAO",
-    "detalhes": {
-      "nomeArquivo": "COMP_SCM_LAVAMAIS_HIGIENIZACAO_2026_FEVEREIRO.pdf",
-      "ano": 2026,
-      "mes": "Fevereiro"
-    },
-    "data": "2026-04-22T17:12:55.344Z"
-  },
-  {
-    "acao": "UPLOAD_PDF_SCM",
-    "usuario": "LAVAMAIS HIGIENIZACAO",
-    "detalhes": {
-      "nomeArquivo": "COMP_SCM_LAVAMAIS_HIGIENIZACAO_2026_JANEIRO.pdf",
-      "ano": 2026,
-      "mes": "Janeiro"
-    },
-    "data": "2026-04-22T17:12:52.601Z"
-  },
-  {
-    "acao": "UPLOAD_PDF_SCM",
-    "usuario": "LAVAMAIS HIGIENIZACAO",
-    "detalhes": {
-      "nomeArquivo": "COMP_SCM_LAVAMAIS_HIGIENIZACAO_2026_MARÇO.pdf",
-      "ano": 2026,
-      "mes": "Março"
-    },
-    "data": "2026-04-22T17:11:51.051Z"
-  },
-  {
-    "acao": "UPLOAD_PDF_SCM",
-    "usuario": "LAVAMAIS HIGIENIZACAO",
-    "detalhes": {
-      "nomeArquivo": "COMP_SCM_LAVAMAIS_HIGIENIZACAO_2026_FEVEREIRO.pdf",
-      "ano": 2026,
-      "mes": "Fevereiro"
-    },
-    "data": "2026-04-22T17:11:48.232Z"
-  },
-  {
-    "acao": "UPLOAD_PDF_SCM",
-    "usuario": "LAVAMAIS HIGIENIZACAO",
-    "detalhes": {
-      "nomeArquivo": "COMP_SCM_LAVAMAIS_HIGIENIZACAO_2026_JANEIRO.pdf",
-      "ano": 2026,
-      "mes": "Janeiro"
-    },
-    "data": "2026-04-22T17:11:45.590Z"
-  },
-  {
-    "acao": "UPLOAD_PDF_SCM",
-    "usuario": "LAVAMAIS HIGIENIZACAO",
-    "detalhes": {
-      "nomeArquivo": "COMP_SCM_LAVAMAIS_HIGIENIZACAO_2026_MARÇO.pdf",
-      "ano": 2026,
-      "mes": "Março"
-    },
-    "data": "2026-04-22T17:09:22.830Z"
-  },
-  {
-    "acao": "UPLOAD_PDF_SCM",
-    "usuario": "LAVAMAIS HIGIENIZACAO",
-    "detalhes": {
-      "nomeArquivo": "COMP_SCM_LAVAMAIS_HIGIENIZACAO_2026_FEVEREIRO.pdf",
-      "ano": 2026,
-      "mes": "Fevereiro"
-    },
-    "data": "2026-04-22T17:09:20.032Z"
-  },
-  {
-    "acao": "UPLOAD_PDF_SCM",
-    "usuario": "LAVAMAIS HIGIENIZACAO",
-    "detalhes": {
-      "nomeArquivo": "COMP_SCM_LAVAMAIS_HIGIENIZACAO_2026_JANEIRO.pdf",
-      "ano": 2026,
-      "mes": "Janeiro"
-    },
-    "data": "2026-04-22T17:09:17.935Z"
-  },
-  {
-    "acao": "UPLOAD_PDF_SCM",
-    "usuario": "LAVAMAIS HIGIENIZACAO",
-    "detalhes": {
-      "nomeArquivo": "COMP_SCM_LAVAMAIS_HIGIENIZACAO_2026_FEVEREIRO.pdf",
-      "ano": 2026,
-      "mes": "Fevereiro"
-    },
-    "data": "2026-04-22T17:08:20.692Z"
-  },
-  {
-    "acao": "UPLOAD_PDF_SCM",
-    "usuario": "LAVAMAIS HIGIENIZACAO",
-    "detalhes": {
-      "nomeArquivo": "COMP_SCM_LAVAMAIS_HIGIENIZACAO_2026_JANEIRO.pdf",
-      "ano": 2026,
-      "mes": "Janeiro"
-    },
-    "data": "2026-04-22T17:08:17.799Z"
-  },
-  {
-    "acao": "UPLOAD_PDF_REL_ECON",
-    "usuario": "LAVAMAIS HIGIENIZACAO",
-    "detalhes": {
-      "nomeArquivo": "COMP_REL_ECON_LAVAMAIS_HIGIENIZACAO_2026_SEGUNDO_SEMESTRE.pdf",
-      "ano": 2026,
-      "semestre": "SEGUNDO SEMESTRE"
-    },
-    "data": "2026-04-22T17:08:04.608Z"
-  },
-  {
-    "acao": "UPLOAD_PDF_REL_ECON",
-    "usuario": "LAVAMAIS HIGIENIZACAO",
-    "detalhes": {
-      "nomeArquivo": "COMP_REL_ECON_LAVAMAIS_HIGIENIZACAO_2026_PRIMEIRO_SEMESTRE.pdf",
-      "ano": 2026,
-      "semestre": "PRIMEIRO SEMESTRE"
-    },
-    "data": "2026-04-22T17:08:02.491Z"
-  },
-  {
-    "acao": "UPLOAD_PDF_REL_ECON",
-    "usuario": "LAVAMAIS HIGIENIZACAO",
-    "detalhes": {
-      "nomeArquivo": "COMP_REL_ECON_LAVAMAIS_HIGIENIZACAO_2026_SEGUNDO_SEMESTRE.pdf",
-      "ano": 2026,
-      "semestre": "SEGUNDO SEMESTRE"
-    },
-    "data": "2026-04-22T17:05:53.089Z"
-  },
-  {
-    "acao": "UPLOAD_PDF_REL_ECON",
-    "usuario": "LAVAMAIS HIGIENIZACAO",
-    "detalhes": {
-      "nomeArquivo": "COMP_REL_ECON_LAVAMAIS_HIGIENIZACAO_2026_PRIMEIRO_SEMESTRE.pdf",
-      "ano": 2026,
-      "semestre": "PRIMEIRO SEMESTRE"
-    },
-    "data": "2026-04-22T17:05:50.443Z"
-  },
-  {
-    "acao": "UPLOAD_PDF_SCM",
-    "usuario": "LAVAMAIS HIGIENIZACAO",
-    "detalhes": {
-      "nomeArquivo": "COMP_SCM_LAVAMAIS_HIGIENIZACAO_2026_MARÇO.pdf",
-      "ano": 2026,
-      "mes": "Março"
-    },
-    "data": "2026-04-22T17:05:27.610Z"
-  },
-  {
-    "acao": "UPLOAD_PDF_SCM",
-    "usuario": "LAVAMAIS HIGIENIZACAO",
-    "detalhes": {
-      "nomeArquivo": "COMP_SCM_LAVAMAIS_HIGIENIZACAO_2026_FEVEREIRO.pdf",
-      "ano": 2026,
-      "mes": "Fevereiro"
-    },
-    "data": "2026-04-22T17:05:23.970Z"
-  },
-  {
-    "acao": "UPLOAD_PDF_SCM",
-    "usuario": "LAVAMAIS HIGIENIZACAO",
-    "detalhes": {
-      "nomeArquivo": "COMP_SCM_LAVAMAIS_HIGIENIZACAO_2026_JANEIRO.pdf",
-      "ano": 2026,
-      "mes": "Janeiro"
-    },
-    "data": "2026-04-22T17:05:12.167Z"
-  },
-  {
-    "acao": "UPLOAD_PDF_SCM",
-    "usuario": "LAVAMAIS HIGIENIZACAO",
-    "detalhes": {
-      "nomeArquivo": "COMP_SCM_LAVAMAIS_HIGIENIZACAO_2026_JANEIRO.pdf",
-      "ano": 2026,
-      "mes": "Janeiro"
-    },
-    "data": "2026-04-22T16:59:33.488Z"
-  },
-  {
-    "acao": "GERAR_CSV_TVPA",
-    "usuario": "40.219.880/0001-06",
-    "detalhes": {
-      "nomeArquivo": "TVpA_LAVAMAISHIGIENIZACAO_2026_1.csv",
-      "ano": "2026",
-      "mes": "1",
-      "razao": "LAVAMAISHIGIENIZACAO"
-    },
-    "data": "2026-04-22T16:01:14.845Z"
-  },
-  {
-    "acao": "UPLOAD_PDF_TVPA",
-    "usuario": "LAVAMAIS HIGIENIZACAO",
-    "detalhes": {
-      "nomeArquivo": "COMP_TVPA_LAVAMAIS_HIGIENIZACAO_2026_DEZEMBRO.pdf",
-      "ano": 2026,
-      "mes": "Dezembro"
-    },
-    "data": "2026-04-21T19:07:19.502Z"
-  },
-  {
-    "acao": "ATUALIZAR_STATUS",
-    "usuario": "17.687.355/0001-01",
-    "detalhes": {
-      "id": "1776692451028",
-      "status": "SUSPENSO"
-    },
-    "data": "2026-04-21T18:42:50.989Z"
-  },
-  {
-    "acao": "ATUALIZAR_STATUS",
-    "usuario": "02.183.438/0001-88",
-    "detalhes": {
-      "id": "1776692552600",
-      "status": "CORRIGIR"
-    },
-    "data": "2026-04-21T18:42:41.939Z"
-  },
-  {
-    "acao": "ATUALIZAR_STATUS",
-    "usuario": "40.219.880/0001-06",
-    "detalhes": {
-      "id": "1776375437487",
-      "status": "ATIVO"
-    },
-    "data": "2026-04-21T18:41:06.067Z"
-  },
-  {
-    "acao": "EXCLUIR_CLIENTE",
-    "usuario": "1776691094135",
-    "detalhes": {},
-    "data": "2026-04-21T17:28:42.857Z"
-  },
-  {
-    "acao": "GERAR_CSV_TVPA",
-    "usuario": "52.450.778/0001-04",
-    "detalhes": {
-      "nomeArquivo": "TVpA_ADNNETTELECOMLTDA_2026_2.csv",
-      "ano": "2026",
-      "mes": "2",
-      "razao": "ADNNETTELECOMLTDA"
-    },
-    "data": "2026-04-21T16:29:48.274Z"
-  },
-  {
-    "acao": "GERAR_CSV_TVPA",
-    "usuario": "40.219.880/0001-06",
-    "detalhes": {
-      "nomeArquivo": "TVpA_LAVAMAISHIGIENIZACAO_2026_1.csv",
-      "ano": "2026",
-      "mes": "1",
-      "razao": "LAVAMAISHIGIENIZACAO"
-    },
-    "data": "2026-04-21T16:22:48.124Z"
-  },
-  {
-    "acao": "GERAR_CSV_TVPA",
-    "usuario": "40.219.880/0001-06",
-    "detalhes": {
-      "nomeArquivo": "TVpA_LAVAMAISHIGIENIZACAO_2026_1.csv",
-      "ano": "2026",
-      "mes": "1",
-      "razao": "LAVAMAISHIGIENIZACAO"
-    },
-    "data": "2026-04-21T16:18:18.855Z"
-  },
-  {
-    "acao": "GERAR_CSV_RELATORIO_ECONOMICO",
-    "usuario": "40.219.880/0001-06",
-    "detalhes": {
-      "nomeArquivo": "REL_ECON_LAVAMAIS_HIGIENIZACAO_2026_SEM1.csv",
-      "semestre": "SEM1",
-      "ano": 2026,
-      "razaoSocial": "LAVAMAIS HIGIENIZACAO"
-    },
-    "data": "2026-04-21T16:12:28.322Z"
-  },
-  {
-    "acao": "GERAR_CSV_STFC",
-    "usuario": "40.219.880/0001-06",
-    "detalhes": {
-      "nomeArquivo": "STFC_LAVAMAIS_HIGIENIZACAO_2026_1.csv"
-    },
-    "data": "2026-04-21T16:12:02.092Z"
-  },
-  {
-    "acao": "GERAR_CSV_TVPA",
-    "usuario": "40.219.880/0001-06",
-    "detalhes": {
-      "nomeArquivo": "TVpA_LAVAMAISHIGIENIZACAO_2026_1.csv",
-      "ano": "2026",
-      "mes": "1",
-      "razao": "LAVAMAISHIGIENIZACAO"
-    },
-    "data": "2026-04-21T16:11:49.211Z"
-  },
-  {
-    "acao": "GERAR_CSV_SCM",
-    "usuario": "40.219.880/0001-06",
-    "detalhes": {
-      "nomeArquivo": "SCM_LAVAMAIS_HIGIENIZACAO_2026_1.csv",
-      "ano": "2026",
-      "mes": "1",
-      "razaoSocial": "LAVAMAIS_HIGIENIZACAO"
-    },
-    "data": "2026-04-21T16:11:25.360Z"
-  },
-  {
-    "acao": "EXCLUIR_CLIENTE",
-    "usuario": "1776461153835",
-    "detalhes": {},
-    "data": "2026-04-21T15:38:08.285Z"
-  },
-  {
-    "acao": "GERAR_CSV_SCM",
-    "usuario": "17.869.753/0001-30",
-    "detalhes": {
-      "nomeArquivo": "SCM_A_Z_de_Araujo_Neto_ME_2026_1.csv",
-      "ano": "2026",
-      "mes": "1",
-      "razaoSocial": "A_Z_de_Araujo_Neto_ME"
-    },
-    "data": "2026-04-20T20:20:44.527Z"
-  },
-  {
-    "acao": "GERAR_CSV_SCM",
-    "usuario": "desconhecido",
-    "detalhes": {
-      "nomeArquivo": "SCM_A_Z_de_Araujo_Neto_ME_2026_1.csv",
-      "ano": "2026",
-      "mes": "1",
-      "razaoSocial": "A_Z_de_Araujo_Neto_ME"
-    },
-    "data": "2026-04-20T20:12:40.644Z"
-  },
-  {
-    "acao": "GERAR_CSV_RELATORIO_ECONOMICO",
-    "usuario": "17.869.753/0001-30",
-    "detalhes": {
-      "nomeArquivo": "REL_ECON_A_Z_DE_ARAUJO_NETO_ME_2026_SEM1.csv",
-      "semestre": "SEM1",
-      "ano": 2026,
-      "razaoSocial": "A Z de Araujo Neto ME"
-    },
-    "data": "2026-04-20T19:13:37.281Z"
-  },
-  {
-    "acao": "GERAR_CSV_RELATORIO_ECONOMICO",
-    "usuario": "17.869.753/0001-30",
-    "detalhes": {
-      "nomeArquivo": "REL_ECON_A_Z_DE_ARAUJO_NETO_ME_2026_SEM1.csv",
-      "semestre": "SEM1",
-      "ano": 2026,
-      "razaoSocial": "A Z de Araujo Neto ME"
-    },
-    "data": "2026-04-20T19:07:47.413Z"
-  },
-  {
-    "acao": "GERAR_CSV_SCM",
-    "usuario": "desconhecido",
-    "detalhes": {
-      "nomeArquivo": "SCM_LAVAMAIS_HIGIENIZACAO_2026_1.csv",
-      "ano": "2026",
-      "mes": "1",
-      "razaoSocial": "LAVAMAIS_HIGIENIZACAO"
-    },
-    "data": "2026-04-20T18:43:53.454Z"
-  },
-  {
-    "acao": "GERAR_CSV_TVPA",
-    "usuario": "40.219.880/0001-06",
-    "detalhes": {
-      "nomeArquivo": "TVpA_LAVAMAISHIGIENIZACAO_2026_1.csv",
-      "ano": "2026",
-      "mes": "1",
-      "razao": "LAVAMAISHIGIENIZACAO"
-    },
-    "data": "2026-04-20T18:42:11.878Z"
-  },
-  {
-    "acao": "GERAR_CSV_TVPA",
-    "usuario": "17.869.753/0001-30",
-    "detalhes": {
-      "nomeArquivo": "TVpA_AZDEARAUJONETOME_2026_1.csv",
-      "ano": "2026",
-      "mes": "1",
-      "razao": "AZDEARAUJONETOME"
-    },
-    "data": "2026-04-20T18:40:46.871Z"
-  },
-  {
-    "acao": "UPLOAD_PDF_INFRA",
-    "usuario": "LAVAMAIS HIGIENIZACAO",
-    "detalhes": {
-      "nomeArquivo": "COMP_INFRA_LAVAMAIS_HIGIENIZACAO_2026_ESTAÇÕES.pdf",
-      "ano": 2026,
-      "item": "Estações"
-    },
-    "data": "2026-04-20T17:26:55.384Z"
-  },
-  {
-    "acao": "GERAR_CSV_SCM",
-    "usuario": "desconhecido",
-    "detalhes": {
-      "nomeArquivo": "SCM_LAVAMAIS_HIGIENIZACAO_2026_1.csv",
-      "ano": "2026",
-      "mes": "1",
-      "razaoSocial": "LAVAMAIS_HIGIENIZACAO"
-    },
-    "data": "2026-04-20T16:36:00.455Z"
-  },
-  {
-    "acao": "GERAR_CSV_SCM",
-    "usuario": "desconhecido",
-    "detalhes": {
-      "nomeArquivo": "SCM_LAVAMAIS_HIGIENIZACAO_2024_1.csv",
-      "ano": "2024",
-      "mes": "1",
-      "razaoSocial": "LAVAMAIS_HIGIENIZACAO"
-    },
-    "data": "2026-04-20T16:24:30.295Z"
-  },
-  {
-    "acao": "GERAR_CSV_RELATORIO_ECONOMICO",
-    "usuario": "40.219.880/0001-06",
-    "detalhes": {
-      "nomeArquivo": "REL_ECON_LAVAMAIS_HIGIENIZACAO_2026_SEM2.csv",
-      "semestre": "SEM2",
-      "ano": 2026,
-      "razaoSocial": "LAVAMAIS HIGIENIZACAO"
-    },
-    "data": "2026-04-20T14:20:37.665Z"
-  },
-  {
-    "acao": "GERAR_CSV_RELATORIO_ECONOMICO",
-    "usuario": "40.219.880/0001-06",
-    "detalhes": {
-      "nomeArquivo": "REL_ECON_LAVAMAIS_HIGIENIZACAO_2026_SEM1.csv",
-      "semestre": "SEM1",
-      "ano": 2026,
-      "razaoSocial": "LAVAMAIS HIGIENIZACAO"
-    },
-    "data": "2026-04-20T14:19:03.278Z"
-  },
-  {
-    "acao": "GERAR_CSV_RELATORIO_ECONOMICO",
-    "usuario": "40.219.880/0001-06",
-    "detalhes": {
-      "nomeArquivo": "REL_ECON_LAVAMAIS_HIGIENIZACAO_2026_SEM2.csv",
-      "semestre": "SEM2",
-      "ano": 2026,
-      "razaoSocial": "LAVAMAIS HIGIENIZACAO"
-    },
-    "data": "2026-04-20T14:17:24.290Z"
-  },
-  {
-    "acao": "GERAR_CSV_RELATORIO_ECONOMICO",
-    "usuario": "40.219.880/0001-06",
-    "detalhes": {
-      "nomeArquivo": "REL_ECON_LAVAMAIS_HIGIENIZACAO_2026_SEM1.csv",
-      "semestre": "SEM1",
-      "ano": 2026,
-      "razaoSocial": "LAVAMAIS HIGIENIZACAO"
-    },
-    "data": "2026-04-20T14:15:06.208Z"
-  },
-  {
-    "acao": "GERAR_CSV_RELATORIO_ECONOMICO",
-    "usuario": "40.219.880/0001-06",
-    "detalhes": {
-      "nomeArquivo": "REL_ECON_LAVAMAIS_HIGIENIZACAO_2026_SEM1.csv",
-      "semestre": "SEM1",
-      "ano": 2026,
-      "razaoSocial": "LAVAMAIS HIGIENIZACAO"
-    },
-    "data": "2026-04-20T14:11:57.372Z"
-  },
-  {
-    "acao": "GERAR_CSV_STFC",
-    "usuario": "40.219.880/0001-06",
-    "detalhes": {
-      "nomeArquivo": "STFC_LAVAMAIS_HIGIENIZACAO_2026_1.csv"
-    },
-    "data": "2026-04-20T14:06:40.811Z"
-  },
-  {
-    "acao": "GERAR_CSV_STFC",
-    "usuario": "40.219.880/0001-06",
-    "detalhes": {
-      "nomeArquivo": "COLETA_STFC_2026-04-20T14-04-28-919Z.csv"
-    },
-    "data": "2026-04-20T14:04:28.926Z"
-  },
-  {
-    "acao": "GERAR_CSV_SCM",
-    "usuario": "desconhecido",
-    "detalhes": {
-      "nomeArquivo": "SCM_LAVAMAIS_HIGIENIZACAO_2026_1.csv",
-      "ano": "2026",
-      "mes": "1",
-      "razaoSocial": "LAVAMAIS_HIGIENIZACAO"
-    },
-    "data": "2026-04-20T14:03:51.267Z"
-  },
-  {
-    "acao": "GERAR_CSV_SCM",
-    "usuario": "desconhecido",
-    "detalhes": {
-      "nomeArquivo": "SCM_CLIENTE_2026_1.csv",
-      "ano": "2026",
-      "mes": "1"
-    },
-    "data": "2026-04-20T14:01:43.627Z"
-  },
-  {
-    "acao": "EDITAR_CLIENTE",
-    "usuario": "52.450.778/0001-04",
-    "detalhes": {
-      "id": "1776690961202",
-      "razaoSocial": "ADN Net Telecom LTDA",
-      "email": "adnnet0018@gmail.com",
-      "telefone": "(83) 98714-0018",
-      "consultoria": "RENIO"
-    },
-    "data": "2026-04-20T13:57:59.688Z"
-  },
-  {
-    "acao": "CADASTRAR_CLIENTE",
-    "usuario": "02.183.438/0001-88",
-    "detalhes": {
-      "razaoSocial": "C&C TECNOLOGIA DA INFORMACAO, RASTREAMENTO E INTERNET",
-      "email": "celio_cabral@hotmail.com",
-      "telefone": "(35) 99966-6266",
-      "consultoria": "RENIO"
-    },
-    "data": "2026-04-20T13:42:32.610Z"
-  },
-  {
-    "acao": "CADASTRAR_CLIENTE",
-    "usuario": "17.687.355/0001-01",
-    "detalhes": {
-      "razaoSocial": "Bruno Sanches carvalho",
-      "email": "bcsistemas@bcsistemasnet.com",
-      "telefone": "(19) 99146-9776",
-      "consultoria": "RENIO"
-    },
-    "data": "2026-04-20T13:40:51.038Z"
-  },
-  {
-    "acao": "CADASTRAR_CLIENTE",
-    "usuario": "17.687.355/0001-01",
-    "detalhes": {
-      "razaoSocial": "Bruno Sanches carvalho",
-      "email": "bcsistemas@bcsistemasnet.com",
-      "telefone": "(19) 99146-9776",
-      "consultoria": "RENIO"
-    },
-    "data": "2026-04-20T13:38:28.840Z"
-  },
-  {
-    "acao": "CADASTRAR_CLIENTE",
-    "usuario": "17.687.355/0001-01",
-    "detalhes": {
-      "razaoSocial": "Bruno Sanches carvalho",
-      "email": "bcsistemas@bcsistemasnet.com",
-      "telefone": "(19) 99146-9776",
-      "consultoria": "RENIO"
-    },
-    "data": "2026-04-20T13:37:08.743Z"
-  },
-  {
-    "acao": "CADASTRAR_CLIENTE",
-    "usuario": "35.249.180/0001-24",
-    "detalhes": {
-      "razaoSocial": "BAYNET TELECOM PROVEDOR E SERVICOS DE INTERNET LTDA",
-      "email": "felipeandrade.fel@hotmail.com",
-      "telefone": "(83) 99688-5773",
-      "consultoria": "RENIO"
-    },
-    "data": "2026-04-20T13:35:48.135Z"
-  },
-  {
-    "acao": "CADASTRAR_CLIENTE",
-    "usuario": "51.581.393/0001-05",
-    "detalhes": {
-      "razaoSocial": "Atual Link Telecom LTDA ",
-      "email": "atenciosamenteuallinktelecom@gm",
-      "telefone": "(84) 99908-9592",
-      "consultoria": "RENIO"
-    },
-    "data": "2026-04-20T13:34:30.479Z"
-  },
-  {
-    "acao": "CADASTRAR_CLIENTE",
-    "usuario": "01.210.177/0001-85",
-    "detalhes": {
-      "razaoSocial": "Antonio Carlos Cardoso Junior - ME",
-      "email": "01.210.177/0001-85",
-      "telefone": "(12) 99735-3197",
-      "consultoria": "RENIO"
-    },
-    "data": "2026-04-20T13:33:05.397Z"
-  },
-  {
-    "acao": "CADASTRAR_CLIENTE",
-    "usuario": "38.382.138/0001-75",
-    "detalhes": {
-      "razaoSocial": "ANSAT TELECOMUNICACOES EIRELI",
-      "email": "atendimento@skynetbandalarga.com.br",
-      "telefone": "(71) 99111-4010",
-      "consultoria": "RENIO"
-    },
-    "data": "2026-04-20T13:31:29.965Z"
-  },
-  {
-    "acao": "CADASTRAR_CLIENTE",
-    "usuario": "05.633.812/0001-98",
-    "detalhes": {
-      "razaoSocial": "Amauri Farias Sousa - ME - Vision Net",
-      "email": "jessica@visioninternet.com.br (SEI: contato@visioninternet.com.br",
-      "telefone": "(79) 99946-4398",
-      "consultoria": "RENIO"
-    },
-    "data": "2026-04-20T13:30:15.984Z"
-  },
-  {
-    "acao": "CADASTRAR_CLIENTE",
-    "usuario": "25.160.021/0001-03",
-    "detalhes": {
-      "razaoSocial": "Alianca link Provedor de Internet LTDA",
-      "email": "sobrinho93fm@hotmail.com",
-      "telefone": "(84) 98883-9787",
-      "consultoria": "RENIO"
-    },
-    "data": "2026-04-20T13:28:59.733Z"
-  },
-  {
-    "acao": "CADASTRAR_CLIENTE",
-    "usuario": "37.336.126/0001-41",
-    "detalhes": {
-      "razaoSocial": "Alexsandro Martins de Souza",
-      "email": "gabriela_mbs@hotmail.com",
-      "telefone": "(83) 98183-6445",
-      "consultoria": "RENIO"
-    },
-    "data": "2026-04-20T13:24:28.451Z"
-  },
-  {
-    "acao": "CADASTRAR_CLIENTE",
-    "usuario": "62.087.446/0001-52",
-    "detalhes": {
-      "razaoSocial": "Alex Jose da Silva",
-      "email": "alexjose9098@gmail.com",
-      "telefone": "(81) 99353-3841",
-      "consultoria": "RENIO"
-    },
-    "data": "2026-04-20T13:21:37.731Z"
-  },
-  {
-    "acao": "CADASTRAR_CLIENTE",
-    "usuario": "32.241.664/0001-39",
-    "detalhes": {
-      "razaoSocial": "Anderson Alan Porto Info Service LTDA",
-      "email": "financeiro@portofibras.com.br",
-      "telefone": "(75) 99105-7078",
-      "consultoria": "RENIO"
-    },
-    "data": "2026-04-20T13:19:48.413Z"
-  },
-  {
-    "acao": "CADASTRAR_CLIENTE",
-    "usuario": "52.450.778/0001-04",
-    "detalhes": {
-      "razaoSocial": "ADN Net Telecom LTDA",
-      "email": "adnnet0018@gmail.com",
-      "telefone": "(83) 98714-0018",
-      "consultoria": "RENIO"
-    },
-    "data": "2026-04-20T13:18:14.139Z"
-  },
-  {
-    "acao": "CADASTRAR_CLIENTE",
-    "usuario": "52.450.778/0001-04",
-    "detalhes": {
-      "razaoSocial": "ADN Net Telecom LTDA",
-      "email": "adnnet0018@gmail.com",
-      "telefone": "(83) 98714-0018",
-      "consultoria": "renio"
-    },
-    "data": "2026-04-20T13:16:01.205Z"
-  },
-  {
-    "acao": "CADASTRAR_CLIENTE",
-    "usuario": "19.897.357/0001-42",
-    "detalhes": {
-      "razaoSocial": "ACESSO PROVEDOR INTERNET LTDA",
-      "email": "dercia@acessoinformatica.com.br",
-      "telefone": "(51) 99814-4408",
-      "consultoria": "RENIO"
-    },
-    "data": "2026-04-20T13:13:32.216Z"
-  },
-  {
-    "acao": "CADASTRAR_CLIENTE",
-    "usuario": "17.869.753/0001-30",
-    "detalhes": {
-      "razaoSocial": "A Z de Araujo Neto ME",
-      "email": "ultranetfinanceiro@outlook.com",
-      "telefone": "(84) 99993-8999",
-      "consultoria": "RENIO"
-    },
-    "data": "2026-04-20T13:10:29.686Z"
-  },
-  {
-    "acao": "GERAR_CSV_RELATORIO_ECONOMICO",
-    "usuario": "40.219.880/0001-06",
-    "detalhes": {
-      "nomeArquivo": "REL_ECO_LAVAMAISHIGIENIZACAO_SEM1_2026.csv",
-      "semestre": "SEM1",
-      "ano": 2026,
-      "razaoSocial": "LAVAMAIS HIGIENIZACAO"
-    },
-    "data": "2026-04-20T08:36:24.237Z"
-  },
-  {
-    "acao": "GERAR_CSV_STFC",
-    "usuario": "40.219.880/0001-06",
-    "detalhes": {
-      "nomeArquivo": "COLETA_STFC_2026-04-20T01-40-28-456Z.csv"
-    },
-    "data": "2026-04-20T01:40:28.463Z"
-  },
-  {
-    "acao": "GERAR_CSV_SCM",
-    "usuario": "desconhecido",
-    "detalhes": {
-      "nomeArquivo": "SCM_CLIENTE_2026_1.csv",
-      "ano": "2026",
-      "mes": "1"
-    },
-    "data": "2026-04-20T01:40:02.600Z"
-  },
-  {
-    "acao": "GERAR_CSV_TVPA",
-    "usuario": "40.219.880/0001-06",
-    "detalhes": {
-      "nomeArquivo": "TVpA_LAVAMAISHIGIENIZACAO_2026_1.csv",
-      "ano": "2026",
-      "mes": "1",
-      "razao": "LAVAMAISHIGIENIZACAO"
-    },
-    "data": "2026-04-20T01:39:32.565Z"
-  },
-  {
-    "acao": "EDITAR_CLIENTE",
-    "usuario": "40.219.880/0001-06",
-    "detalhes": {
-      "id": "1776375437487",
-      "razaoSocial": "LAVAMAIS HIGIENIZACAO",
-      "email": "lavamaishigienizacao@gmail.com",
-      "telefone": "84 994068574",
-      "consultoria": "DIEGO"
-    },
-    "data": "2026-04-19T16:41:32.858Z"
-  },
-  {
-    "acao": "EDITAR_CLIENTE",
-    "usuario": "40219880000106",
-    "detalhes": {
-      "id": "1776375437487",
-      "razaoSocial": "LAVAMAIS HIGIENIZACAO",
-      "email": "lavamaishigienizacao@gmail.com",
-      "telefone": "84 994068574",
-      "consultoria": "DIEGO"
-    },
-    "data": "2026-04-19T16:38:26.047Z"
-  },
-  {
-    "acao": "GERAR_CSV_STFC",
-    "usuario": "40219880000106",
-    "detalhes": {
-      "nomeArquivo": "COLETA_STFC_2026-04-19T16-09-51-696Z.csv"
-    },
-    "data": "2026-04-19T16:09:51.703Z"
-  },
-  {
-    "acao": "GERAR_CSV_TVPA",
-    "usuario": "40219880000106",
-    "detalhes": {
-      "nomeArquivo": "TVpA_LAVAMAISHIGIENIZACAO_2026_1.csv",
-      "ano": "2026",
-      "mes": "1",
-      "razao": "LAVAMAISHIGIENIZACAO"
-    },
-    "data": "2026-04-19T16:09:31.179Z"
-  },
-  {
-    "acao": "GERAR_CSV_SCM",
-    "usuario": "desconhecido",
-    "detalhes": {
-      "nomeArquivo": "SCM_CLIENTE_2026_1.csv",
-      "ano": "2026",
-      "mes": "1"
-    },
-    "data": "2026-04-19T16:09:12.186Z"
-  }
-]
+{
+  "logs": [
+    {
+      "acao": "GERAR_CSV_SCM",
+      "usuario": "40.219.880/0001-06",
+      "detalhes": {
+        "nomeArquivo": "SCM_LAVAMAIS_HIGIENIZACAO_2026_1.csv",
+        "ano": "2026",
+        "mes": "1",
+        "razaoSocial": "LAVAMAIS_HIGIENIZACAO"
+      },
+      "data": "2026-04-23T10:17:13.330Z"
+    },
+    {
+      "acao": "UPLOAD_PDF_SCM",
+      "usuario": "A Z de Araujo Neto ME",
+      "detalhes": {
+        "nomeArquivo": "COMP_SCM_A_Z_DE_ARAUJO_NETO_ME_2026_JANEIRO.pdf",
+        "ano": 2026,
+        "mes": "Janeiro"
+      },
+      "data": "2026-04-23T10:16:29.544Z"
+    },
+    {
+      "acao": "UPLOAD_PDF_SCM",
+      "usuario": "A Z de Araujo Neto ME",
+      "detalhes": {
+        "nomeArquivo": "COMP_SCM_A_Z_DE_ARAUJO_NETO_ME_2026_JANEIRO.pdf",
+        "ano": 2026,
+        "mes": "Janeiro"
+      },
+      "data": "2026-04-23T10:16:20.734Z"
+    },
+    {
+      "acao": "UPLOAD_PDF_INFRA",
+      "usuario": "ADN Net Telecom LTDA",
+      "detalhes": {
+        "nomeArquivo": "COMP_INFRA_ADN_NET_TELECOM_LTDA_2026_ESTAÇÕES.pdf",
+        "ano": 2026,
+        "item": "Estações"
+      },
+      "data": "2026-04-23T10:14:43.551Z"
+    },
+    {
+      "acao": "GERAR_CSV_SCM",
+      "usuario": "19.897.357/0001-42",
+      "detalhes": {
+        "nomeArquivo": "SCM_ACESSO_PROVEDOR_INTERNET_LTDA_2026_1.csv",
+        "ano": "2026",
+        "mes": "1",
+        "razaoSocial": "ACESSO_PROVEDOR_INTERNET_LTDA"
+      },
+      "data": "2026-04-23T09:04:00.105Z"
+    },
+    {
+      "acao": "GERAR_CSV_SCM",
+      "usuario": "17.869.753/0001-30",
+      "detalhes": {
+        "nomeArquivo": "SCM_A_Z_de_Araujo_Neto_ME_2026_2.csv",
+        "ano": "2026",
+        "mes": "2",
+        "razaoSocial": "A_Z_de_Araujo_Neto_ME"
+      },
+      "data": "2026-04-23T09:01:00.088Z"
+    },
+    {
+      "acao": "GERAR_CSV_SCM",
+      "usuario": "17.869.753/0001-30",
+      "detalhes": {
+        "nomeArquivo": "SCM_A_Z_de_Araujo_Neto_ME_2026_1.csv",
+        "ano": "2026",
+        "mes": "1",
+        "razaoSocial": "A_Z_de_Araujo_Neto_ME"
+      },
+      "data": "2026-04-23T08:59:19.389Z"
+    },
+    {
+      "acao": "ATUALIZAR_STATUS",
+      "usuario": "10.960.804/0001-96",
+      "detalhes": {
+        "id": "1776891748418",
+        "status": "ATIVO"
+      },
+      "data": "2026-04-22T21:02:34.196Z"
+    },
+    {
+      "acao": "CADASTRAR_CLIENTE",
+      "usuario": "10.960.804/0001-96",
+      "detalhes": {
+        "razaoSocial": "L GONZAGA JUNIOR SERVIÇOS DE INTERNET - ME",
+        "email": "gonzaga-junior@hotmail.com",
+        "telefone": "(84) 99698-9649",
+        "consultoria": "RENIO"
+      },
+      "data": "2026-04-22T21:02:28.419Z"
+    },
+    {
+      "acao": "ATUALIZAR_STATUS",
+      "usuario": "02.183.438/0001-88",
+      "detalhes": {
+        "id": "1776692552600",
+        "status": "NOVO"
+      },
+      "data": "2026-04-22T20:39:17.045Z"
+    },
+    {
+      "acao": "GERAR_CSV_SCM",
+      "usuario": "40.219.880/0001-06",
+      "detalhes": {
+        "nomeArquivo": "SCM_LAVAMAIS_HIGIENIZACAO_2026_3.csv",
+        "ano": "2026",
+        "mes": "3",
+        "razaoSocial": "LAVAMAIS_HIGIENIZACAO"
+      },
+      "data": "2026-04-22T19:20:53.512Z"
+    },
+    {
+      "acao": "GERAR_CSV_SCM",
+      "usuario": "40.219.880/0001-06",
+      "detalhes": {
+        "nomeArquivo": "SCM_LAVAMAIS_HIGIENIZACAO_2026_3.csv",
+        "ano": "2026",
+        "mes": "3",
+        "razaoSocial": "LAVAMAIS_HIGIENIZACAO"
+      },
+      "data": "2026-04-22T19:16:43.877Z"
+    },
+    {
+      "acao": "GERAR_CSV_SCM",
+      "usuario": "40.219.880/0001-06",
+      "detalhes": {
+        "nomeArquivo": "SCM_LAVAMAIS_HIGIENIZACAO_2026_3.csv",
+        "ano": "2026",
+        "mes": "3",
+        "razaoSocial": "LAVAMAIS_HIGIENIZACAO"
+      },
+      "data": "2026-04-22T19:05:42.817Z"
+    },
+    {
+      "acao": "GERAR_CSV_SCM",
+      "usuario": "40.219.880/0001-06",
+      "detalhes": {
+        "nomeArquivo": "SCM_LAVAMAIS_HIGIENIZACAO_2026_12.csv",
+        "ano": "2026",
+        "mes": "12",
+        "razaoSocial": "LAVAMAIS_HIGIENIZACAO"
+      },
+      "data": "2026-04-22T19:01:51.300Z"
+    },
+    {
+      "acao": "UPLOAD_PDF_SCM",
+      "usuario": "LAVAMAIS HIGIENIZACAO",
+      "detalhes": {
+        "nomeArquivo": "COMP_SCM_LAVAMAIS_HIGIENIZACAO_2026_MARÇO.pdf",
+        "ano": 2026,
+        "mes": "Março"
+      },
+      "data": "2026-04-22T17:12:58.018Z"
+    },
+    {
+      "acao": "UPLOAD_PDF_SCM",
+      "usuario": "LAVAMAIS HIGIENIZACAO",
+      "detalhes": {
+        "nomeArquivo": "COMP_SCM_LAVAMAIS_HIGIENIZACAO_2026_FEVEREIRO.pdf",
+        "ano": 2026,
+        "mes": "Fevereiro"
+      },
+      "data": "2026-04-22T17:12:55.344Z"
+    },
+    {
+      "acao": "UPLOAD_PDF_SCM",
+      "usuario": "LAVAMAIS HIGIENIZACAO",
+      "detalhes": {
+        "nomeArquivo": "COMP_SCM_LAVAMAIS_HIGIENIZACAO_2026_JANEIRO.pdf",
+        "ano": 2026,
+        "mes": "Janeiro"
+      },
+      "data": "2026-04-22T17:12:52.601Z"
+    },
+    {
+      "acao": "UPLOAD_PDF_SCM",
+      "usuario": "LAVAMAIS HIGIENIZACAO",
+      "detalhes": {
+        "nomeArquivo": "COMP_SCM_LAVAMAIS_HIGIENIZACAO_2026_MARÇO.pdf",
+        "ano": 2026,
+        "mes": "Março"
+      },
+      "data": "2026-04-22T17:11:51.051Z"
+    },
+    {
+      "acao": "UPLOAD_PDF_SCM",
+      "usuario": "LAVAMAIS HIGIENIZACAO",
+      "detalhes": {
+        "nomeArquivo": "COMP_SCM_LAVAMAIS_HIGIENIZACAO_2026_FEVEREIRO.pdf",
+        "ano": 2026,
+        "mes": "Fevereiro"
+      },
+      "data": "2026-04-22T17:11:48.232Z"
+    },
+    {
+      "acao": "UPLOAD_PDF_SCM",
+      "usuario": "LAVAMAIS HIGIENIZACAO",
+      "detalhes": {
+        "nomeArquivo": "COMP_SCM_LAVAMAIS_HIGIENIZACAO_2026_JANEIRO.pdf",
+        "ano": 2026,
+        "mes": "Janeiro"
+      },
+      "data": "2026-04-22T17:11:45.590Z"
+    },
+    {
+      "acao": "UPLOAD_PDF_SCM",
+      "usuario": "LAVAMAIS HIGIENIZACAO",
+      "detalhes": {
+        "nomeArquivo": "COMP_SCM_LAVAMAIS_HIGIENIZACAO_2026_MARÇO.pdf",
+        "ano": 2026,
+        "mes": "Março"
+      },
+      "data": "2026-04-22T17:09:22.830Z"
+    },
+    {
+      "acao": "UPLOAD_PDF_SCM",
+      "usuario": "LAVAMAIS HIGIENIZACAO",
+      "detalhes": {
+        "nomeArquivo": "COMP_SCM_LAVAMAIS_HIGIENIZACAO_2026_FEVEREIRO.pdf",
+        "ano": 2026,
+        "mes": "Fevereiro"
+      },
+      "data": "2026-04-22T17:09:20.032Z"
+    },
+    {
+      "acao": "UPLOAD_PDF_SCM",
+      "usuario": "LAVAMAIS HIGIENIZACAO",
+      "detalhes": {
+        "nomeArquivo": "COMP_SCM_LAVAMAIS_HIGIENIZACAO_2026_JANEIRO.pdf",
+        "ano": 2026,
+        "mes": "Janeiro"
+      },
+      "data": "2026-04-22T17:09:17.935Z"
+    },
+    {
+      "acao": "UPLOAD_PDF_SCM",
+      "usuario": "LAVAMAIS HIGIENIZACAO",
+      "detalhes": {
+        "nomeArquivo": "COMP_SCM_LAVAMAIS_HIGIENIZACAO_2026_FEVEREIRO.pdf",
+        "ano": 2026,
+        "mes": "Fevereiro"
+      },
+      "data": "2026-04-22T17:08:20.692Z"
+    },
+    {
+      "acao": "UPLOAD_PDF_SCM",
+      "usuario": "LAVAMAIS HIGIENIZACAO",
+      "detalhes": {
+        "nomeArquivo": "COMP_SCM_LAVAMAIS_HIGIENIZACAO_2026_JANEIRO.pdf",
+        "ano": 2026,
+        "mes": "Janeiro"
+      },
+      "data": "2026-04-22T17:08:17.799Z"
+    },
+    {
+      "acao": "UPLOAD_PDF_REL_ECON",
+      "usuario": "LAVAMAIS HIGIENIZACAO",
+      "detalhes": {
+        "nomeArquivo": "COMP_REL_ECON_LAVAMAIS_HIGIENIZACAO_2026_SEGUNDO_SEMESTRE.pdf",
+        "ano": 2026,
+        "semestre": "SEGUNDO SEMESTRE"
+      },
+      "data": "2026-04-22T17:08:04.608Z"
+    },
+    {
+      "acao": "UPLOAD_PDF_REL_ECON",
+      "usuario": "LAVAMAIS HIGIENIZACAO",
+      "detalhes": {
+        "nomeArquivo": "COMP_REL_ECON_LAVAMAIS_HIGIENIZACAO_2026_PRIMEIRO_SEMESTRE.pdf",
+        "ano": 2026,
+        "semestre": "PRIMEIRO SEMESTRE"
+      },
+      "data": "2026-04-22T17:08:02.491Z"
+    },
+    {
+      "acao": "UPLOAD_PDF_REL_ECON",
+      "usuario": "LAVAMAIS HIGIENIZACAO",
+      "detalhes": {
+        "nomeArquivo": "COMP_REL_ECON_LAVAMAIS_HIGIENIZACAO_2026_SEGUNDO_SEMESTRE.pdf",
+        "ano": 2026,
+        "semestre": "SEGUNDO SEMESTRE"
+      },
+      "data": "2026-04-22T17:05:53.089Z"
+    },
+    {
+      "acao": "UPLOAD_PDF_REL_ECON",
+      "usuario": "LAVAMAIS HIGIENIZACAO",
+      "detalhes": {
+        "nomeArquivo": "COMP_REL_ECON_LAVAMAIS_HIGIENIZACAO_2026_PRIMEIRO_SEMESTRE.pdf",
+        "ano": 2026,
+        "semestre": "PRIMEIRO SEMESTRE"
+      },
+      "data": "2026-04-22T17:05:50.443Z"
+    },
+    {
+      "acao": "UPLOAD_PDF_SCM",
+      "usuario": "LAVAMAIS HIGIENIZACAO",
+      "detalhes": {
+        "nomeArquivo": "COMP_SCM_LAVAMAIS_HIGIENIZACAO_2026_MARÇO.pdf",
+        "ano": 2026,
+        "mes": "Março"
+      },
+      "data": "2026-04-22T17:05:27.610Z"
+    },
+    {
+      "acao": "UPLOAD_PDF_SCM",
+      "usuario": "LAVAMAIS HIGIENIZACAO",
+      "detalhes": {
+        "nomeArquivo": "COMP_SCM_LAVAMAIS_HIGIENIZACAO_2026_FEVEREIRO.pdf",
+        "ano": 2026,
+        "mes": "Fevereiro"
+      },
+      "data": "2026-04-22T17:05:23.970Z"
+    },
+    {
+      "acao": "UPLOAD_PDF_SCM",
+      "usuario": "LAVAMAIS HIGIENIZACAO",
+      "detalhes": {
+        "nomeArquivo": "COMP_SCM_LAVAMAIS_HIGIENIZACAO_2026_JANEIRO.pdf",
+        "ano": 2026,
+        "mes": "Janeiro"
+      },
+      "data": "2026-04-22T17:05:12.167Z"
+    },
+    {
+      "acao": "UPLOAD_PDF_SCM",
+      "usuario": "LAVAMAIS HIGIENIZACAO",
+      "detalhes": {
+        "nomeArquivo": "COMP_SCM_LAVAMAIS_HIGIENIZACAO_2026_JANEIRO.pdf",
+        "ano": 2026,
+        "mes": "Janeiro"
+      },
+      "data": "2026-04-22T16:59:33.488Z"
+    },
+    {
+      "acao": "GERAR_CSV_TVPA",
+      "usuario": "40.219.880/0001-06",
+      "detalhes": {
+        "nomeArquivo": "TVpA_LAVAMAISHIGIENIZACAO_2026_1.csv",
+        "ano": "2026",
+        "mes": "1",
+        "razao": "LAVAMAISHIGIENIZACAO"
+      },
+      "data": "2026-04-22T16:01:14.845Z"
+    },
+    {
+      "acao": "UPLOAD_PDF_TVPA",
+      "usuario": "LAVAMAIS HIGIENIZACAO",
+      "detalhes": {
+        "nomeArquivo": "COMP_TVPA_LAVAMAIS_HIGIENIZACAO_2026_DEZEMBRO.pdf",
+        "ano": 2026,
+        "mes": "Dezembro"
+      },
+      "data": "2026-04-21T19:07:19.502Z"
+    },
+    {
+      "acao": "ATUALIZAR_STATUS",
+      "usuario": "17.687.355/0001-01",
+      "detalhes": {
+        "id": "1776692451028",
+        "status": "SUSPENSO"
+      },
+      "data": "2026-04-21T18:42:50.989Z"
+    },
+    {
+      "acao": "ATUALIZAR_STATUS",
+      "usuario": "02.183.438/0001-88",
+      "detalhes": {
+        "id": "1776692552600",
+        "status": "CORRIGIR"
+      },
+      "data": "2026-04-21T18:42:41.939Z"
+    },
+    {
+      "acao": "ATUALIZAR_STATUS",
+      "usuario": "40.219.880/0001-06",
+      "detalhes": {
+        "id": "1776375437487",
+        "status": "ATIVO"
+      },
+      "data": "2026-04-21T18:41:06.067Z"
+    },
+    {
+      "acao": "EXCLUIR_CLIENTE",
+      "usuario": "1776691094135",
+      "detalhes": {},
+      "data": "2026-04-21T17:28:42.857Z"
+    },
+    {
+      "acao": "GERAR_CSV_TVPA",
+      "usuario": "52.450.778/0001-04",
+      "detalhes": {
+        "nomeArquivo": "TVpA_ADNNETTELECOMLTDA_2026_2.csv",
+        "ano": "2026",
+        "mes": "2",
+        "razao": "ADNNETTELECOMLTDA"
+      },
+      "data": "2026-04-21T16:29:48.274Z"
+    },
+    {
+      "acao": "GERAR_CSV_TVPA",
+      "usuario": "40.219.880/0001-06",
+      "detalhes": {
+        "nomeArquivo": "TVpA_LAVAMAISHIGIENIZACAO_2026_1.csv",
+        "ano": "2026",
+        "mes": "1",
+        "razao": "LAVAMAISHIGIENIZACAO"
+      },
+      "data": "2026-04-21T16:22:48.124Z"
+    },
+    {
+      "acao": "GERAR_CSV_TVPA",
+      "usuario": "40.219.880/0001-06",
+      "detalhes": {
+        "nomeArquivo": "TVpA_LAVAMAISHIGIENIZACAO_2026_1.csv",
+        "ano": "2026",
+        "mes": "1",
+        "razao": "LAVAMAISHIGIENIZACAO"
+      },
+      "data": "2026-04-21T16:18:18.855Z"
+    },
+    {
+      "acao": "GERAR_CSV_RELATORIO_ECONOMICO",
+      "usuario": "40.219.880/0001-06",
+      "detalhes": {
+        "nomeArquivo": "REL_ECON_LAVAMAIS_HIGIENIZACAO_2026_SEM1.csv",
+        "semestre": "SEM1",
+        "ano": 2026,
+        "razaoSocial": "LAVAMAIS HIGIENIZACAO"
+      },
+      "data": "2026-04-21T16:12:28.322Z"
+    },
+    {
+      "acao": "GERAR_CSV_STFC",
+      "usuario": "40.219.880/0001-06",
+      "detalhes": {
+        "nomeArquivo": "STFC_LAVAMAIS_HIGIENIZACAO_2026_1.csv"
+      },
+      "data": "2026-04-21T16:12:02.092Z"
+    },
+    {
+      "acao": "GERAR_CSV_TVPA",
+      "usuario": "40.219.880/0001-06",
+      "detalhes": {
+        "nomeArquivo": "TVpA_LAVAMAISHIGIENIZACAO_2026_1.csv",
+        "ano": "2026",
+        "mes": "1",
+        "razao": "LAVAMAISHIGIENIZACAO"
+      },
+      "data": "2026-04-21T16:11:49.211Z"
+    },
+    {
+      "acao": "GERAR_CSV_SCM",
+      "usuario": "40.219.880/0001-06",
+      "detalhes": {
+        "nomeArquivo": "SCM_LAVAMAIS_HIGIENIZACAO_2026_1.csv",
+        "ano": "2026",
+        "mes": "1",
+        "razaoSocial": "LAVAMAIS_HIGIENIZACAO"
+      },
+      "data": "2026-04-21T16:11:25.360Z"
+    },
+    {
+      "acao": "EXCLUIR_CLIENTE",
+      "usuario": "1776461153835",
+      "detalhes": {},
+      "data": "2026-04-21T15:38:08.285Z"
+    },
+    {
+      "acao": "GERAR_CSV_SCM",
+      "usuario": "17.869.753/0001-30",
+      "detalhes": {
+        "nomeArquivo": "SCM_A_Z_de_Araujo_Neto_ME_2026_1.csv",
+        "ano": "2026",
+        "mes": "1",
+        "razaoSocial": "A_Z_de_Araujo_Neto_ME"
+      },
+      "data": "2026-04-20T20:20:44.527Z"
+    },
+    {
+      "acao": "GERAR_CSV_SCM",
+      "usuario": "desconhecido",
+      "detalhes": {
+        "nomeArquivo": "SCM_A_Z_de_Araujo_Neto_ME_2026_1.csv",
+        "ano": "2026",
+        "mes": "1",
+        "razaoSocial": "A_Z_de_Araujo_Neto_ME"
+      },
+      "data": "2026-04-20T20:12:40.644Z"
+    },
+    {
+      "acao": "GERAR_CSV_RELATORIO_ECONOMICO",
+      "usuario": "17.869.753/0001-30",
+      "detalhes": {
+        "nomeArquivo": "REL_ECON_A_Z_DE_ARAUJO_NETO_ME_2026_SEM1.csv",
+        "semestre": "SEM1",
+        "ano": 2026,
+        "razaoSocial": "A Z de Araujo Neto ME"
+      },
+      "data": "2026-04-20T19:13:37.281Z"
+    },
+    {
+      "acao": "GERAR_CSV_RELATORIO_ECONOMICO",
+      "usuario": "17.869.753/0001-30",
+      "detalhes": {
+        "nomeArquivo": "REL_ECON_A_Z_DE_ARAUJO_NETO_ME_2026_SEM1.csv",
+        "semestre": "SEM1",
+        "ano": 2026,
+        "razaoSocial": "A Z de Araujo Neto ME"
+      },
+      "data": "2026-04-20T19:07:47.413Z"
+    },
+    {
+      "acao": "GERAR_CSV_SCM",
+      "usuario": "desconhecido",
+      "detalhes": {
+        "nomeArquivo": "SCM_LAVAMAIS_HIGIENIZACAO_2026_1.csv",
+        "ano": "2026",
+        "mes": "1",
+        "razaoSocial": "LAVAMAIS_HIGIENIZACAO"
+      },
+      "data": "2026-04-20T18:43:53.454Z"
+    },
+    {
+      "acao": "GERAR_CSV_TVPA",
+      "usuario": "40.219.880/0001-06",
+      "detalhes": {
+        "nomeArquivo": "TVpA_LAVAMAISHIGIENIZACAO_2026_1.csv",
+        "ano": "2026",
+        "mes": "1",
+        "razao": "LAVAMAISHIGIENIZACAO"
+      },
+      "data": "2026-04-20T18:42:11.878Z"
+    },
+    {
+      "acao": "GERAR_CSV_TVPA",
+      "usuario": "17.869.753/0001-30",
+      "detalhes": {
+        "nomeArquivo": "TVpA_AZDEARAUJONETOME_2026_1.csv",
+        "ano": "2026",
+        "mes": "1",
+        "razao": "AZDEARAUJONETOME"
+      },
+      "data": "2026-04-20T18:40:46.871Z"
+    },
+    {
+      "acao": "UPLOAD_PDF_INFRA",
+      "usuario": "LAVAMAIS HIGIENIZACAO",
+      "detalhes": {
+        "nomeArquivo": "COMP_INFRA_LAVAMAIS_HIGIENIZACAO_2026_ESTAÇÕES.pdf",
+        "ano": 2026,
+        "item": "Estações"
+      },
+      "data": "2026-04-20T17:26:55.384Z"
+    },
+    {
+      "acao": "GERAR_CSV_SCM",
+      "usuario": "desconhecido",
+      "detalhes": {
+        "nomeArquivo": "SCM_LAVAMAIS_HIGIENIZACAO_2026_1.csv",
+        "ano": "2026",
+        "mes": "1",
+        "razaoSocial": "LAVAMAIS_HIGIENIZACAO"
+      },
+      "data": "2026-04-20T16:36:00.455Z"
+    },
+    {
+      "acao": "GERAR_CSV_SCM",
+      "usuario": "desconhecido",
+      "detalhes": {
+        "nomeArquivo": "SCM_LAVAMAIS_HIGIENIZACAO_2024_1.csv",
+        "ano": "2024",
+        "mes": "1",
+        "razaoSocial": "LAVAMAIS_HIGIENIZACAO"
+      },
+      "data": "2026-04-20T16:24:30.295Z"
+    },
+    {
+      "acao": "GERAR_CSV_RELATORIO_ECONOMICO",
+      "usuario": "40.219.880/0001-06",
+      "detalhes": {
+        "nomeArquivo": "REL_ECON_LAVAMAIS_HIGIENIZACAO_2026_SEM2.csv",
+        "semestre": "SEM2",
+        "ano": 2026,
+        "razaoSocial": "LAVAMAIS HIGIENIZACAO"
+      },
+      "data": "2026-04-20T14:20:37.665Z"
+    },
+    {
+      "acao": "GERAR_CSV_RELATORIO_ECONOMICO",
+      "usuario": "40.219.880/0001-06",
+      "detalhes": {
+        "nomeArquivo": "REL_ECON_LAVAMAIS_HIGIENIZACAO_2026_SEM1.csv",
+        "semestre": "SEM1",
+        "ano": 2026,
+        "razaoSocial": "LAVAMAIS HIGIENIZACAO"
+      },
+      "data": "2026-04-20T14:19:03.278Z"
+    },
+    {
+      "acao": "GERAR_CSV_RELATORIO_ECONOMICO",
+      "usuario": "40.219.880/0001-06",
+      "detalhes": {
+        "nomeArquivo": "REL_ECON_LAVAMAIS_HIGIENIZACAO_2026_SEM2.csv",
+        "semestre": "SEM2",
+        "ano": 2026,
+        "razaoSocial": "LAVAMAIS HIGIENIZACAO"
+      },
+      "data": "2026-04-20T14:17:24.290Z"
+    },
+    {
+      "acao": "GERAR_CSV_RELATORIO_ECONOMICO",
+      "usuario": "40.219.880/0001-06",
+      "detalhes": {
+        "nomeArquivo": "REL_ECON_LAVAMAIS_HIGIENIZACAO_2026_SEM1.csv",
+        "semestre": "SEM1",
+        "ano": 2026,
+        "razaoSocial": "LAVAMAIS HIGIENIZACAO"
+      },
+      "data": "2026-04-20T14:15:06.208Z"
+    },
+    {
+      "acao": "GERAR_CSV_RELATORIO_ECONOMICO",
+      "usuario": "40.219.880/0001-06",
+      "detalhes": {
+        "nomeArquivo": "REL_ECON_LAVAMAIS_HIGIENIZACAO_2026_SEM1.csv",
+        "semestre": "SEM1",
+        "ano": 2026,
+        "razaoSocial": "LAVAMAIS HIGIENIZACAO"
+      },
+      "data": "2026-04-20T14:11:57.372Z"
+    },
+    {
+      "acao": "GERAR_CSV_STFC",
+      "usuario": "40.219.880/0001-06",
+      "detalhes": {
+        "nomeArquivo": "STFC_LAVAMAIS_HIGIENIZACAO_2026_1.csv"
+      },
+      "data": "2026-04-20T14:06:40.811Z"
+    },
+    {
+      "acao": "GERAR_CSV_STFC",
+      "usuario": "40.219.880/0001-06",
+      "detalhes": {
+        "nomeArquivo": "COLETA_STFC_2026-04-20T14-04-28-919Z.csv"
+      },
+      "data": "2026-04-20T14:04:28.926Z"
+    },
+    {
+      "acao": "GERAR_CSV_SCM",
+      "usuario": "desconhecido",
+      "detalhes": {
+        "nomeArquivo": "SCM_LAVAMAIS_HIGIENIZACAO_2026_1.csv",
+        "ano": "2026",
+        "mes": "1",
+        "razaoSocial": "LAVAMAIS_HIGIENIZACAO"
+      },
+      "data": "2026-04-20T14:03:51.267Z"
+    },
+    {
+      "acao": "GERAR_CSV_SCM",
+      "usuario": "desconhecido",
+      "detalhes": {
+        "nomeArquivo": "SCM_CLIENTE_2026_1.csv",
+        "ano": "2026",
+        "mes": "1"
+      },
+      "data": "2026-04-20T14:01:43.627Z"
+    },
+    {
+      "acao": "EDITAR_CLIENTE",
+      "usuario": "52.450.778/0001-04",
+      "detalhes": {
+        "id": "1776690961202",
+        "razaoSocial": "ADN Net Telecom LTDA",
+        "email": "adnnet0018@gmail.com",
+        "telefone": "(83) 98714-0018",
+        "consultoria": "RENIO"
+      },
+      "data": "2026-04-20T13:57:59.688Z"
+    },
+    {
+      "acao": "CADASTRAR_CLIENTE",
+      "usuario": "02.183.438/0001-88",
+      "detalhes": {
+        "razaoSocial": "C&C TECNOLOGIA DA INFORMACAO, RASTREAMENTO E INTERNET",
+        "email": "celio_cabral@hotmail.com",
+        "telefone": "(35) 99966-6266",
+        "consultoria": "RENIO"
+      },
+      "data": "2026-04-20T13:42:32.610Z"
+    },
+    {
+      "acao": "CADASTRAR_CLIENTE",
+      "usuario": "17.687.355/0001-01",
+      "detalhes": {
+        "razaoSocial": "Bruno Sanches carvalho",
+        "email": "bcsistemas@bcsistemasnet.com",
+        "telefone": "(19) 99146-9776",
+        "consultoria": "RENIO"
+      },
+      "data": "2026-04-20T13:40:51.038Z"
+    },
+    {
+      "acao": "CADASTRAR_CLIENTE",
+      "usuario": "17.687.355/0001-01",
+      "detalhes": {
+        "razaoSocial": "Bruno Sanches carvalho",
+        "email": "bcsistemas@bcsistemasnet.com",
+        "telefone": "(19) 99146-9776",
+        "consultoria": "RENIO"
+      },
+      "data": "2026-04-20T13:38:28.840Z"
+    },
+    {
+      "acao": "CADASTRAR_CLIENTE",
+      "usuario": "17.687.355/0001-01",
+      "detalhes": {
+        "razaoSocial": "Bruno Sanches carvalho",
+        "email": "bcsistemas@bcsistemasnet.com",
+        "telefone": "(19) 99146-9776",
+        "consultoria": "RENIO"
+      },
+      "data": "2026-04-20T13:37:08.743Z"
+    },
+    {
+      "acao": "CADASTRAR_CLIENTE",
+      "usuario": "35.249.180/0001-24",
+      "detalhes": {
+        "razaoSocial": "BAYNET TELECOM PROVEDOR E SERVICOS DE INTERNET LTDA",
+        "email": "felipeandrade.fel@hotmail.com",
+        "telefone": "(83) 99688-5773",
+        "consultoria": "RENIO"
+      },
+      "data": "2026-04-20T13:35:48.135Z"
+    },
+    {
+      "acao": "CADASTRAR_CLIENTE",
+      "usuario": "51.581.393/0001-05",
+      "detalhes": {
+        "razaoSocial": "Atual Link Telecom LTDA ",
+        "email": "atenciosamenteuallinktelecom@gm",
+        "telefone": "(84) 99908-9592",
+        "consultoria": "RENIO"
+      },
+      "data": "2026-04-20T13:34:30.479Z"
+    },
+    {
+      "acao": "CADASTRAR_CLIENTE",
+      "usuario": "01.210.177/0001-85",
+      "detalhes": {
+        "razaoSocial": "Antonio Carlos Cardoso Junior - ME",
+        "email": "01.210.177/0001-85",
+        "telefone": "(12) 99735-3197",
+        "consultoria": "RENIO"
+      },
+      "data": "2026-04-20T13:33:05.397Z"
+    },
+    {
+      "acao": "CADASTRAR_CLIENTE",
+      "usuario": "38.382.138/0001-75",
+      "detalhes": {
+        "razaoSocial": "ANSAT TELECOMUNICACOES EIRELI",
+        "email": "atendimento@skynetbandalarga.com.br",
+        "telefone": "(71) 99111-4010",
+        "consultoria": "RENIO"
+      },
+      "data": "2026-04-20T13:31:29.965Z"
+    },
+    {
+      "acao": "CADASTRAR_CLIENTE",
+      "usuario": "05.633.812/0001-98",
+      "detalhes": {
+        "razaoSocial": "Amauri Farias Sousa - ME - Vision Net",
+        "email": "jessica@visioninternet.com.br (SEI: contato@visioninternet.com.br",
+        "telefone": "(79) 99946-4398",
+        "consultoria": "RENIO"
+      },
+      "data": "2026-04-20T13:30:15.984Z"
+    },
+    {
+      "acao": "CADASTRAR_CLIENTE",
+      "usuario": "25.160.021/0001-03",
+      "detalhes": {
+        "razaoSocial": "Alianca link Provedor de Internet LTDA",
+        "email": "sobrinho93fm@hotmail.com",
+        "telefone": "(84) 98883-9787",
+        "consultoria": "RENIO"
+      },
+      "data": "2026-04-20T13:28:59.733Z"
+    },
+    {
+      "acao": "CADASTRAR_CLIENTE",
+      "usuario": "37.336.126/0001-41",
+      "detalhes": {
+        "razaoSocial": "Alexsandro Martins de Souza",
+        "email": "gabriela_mbs@hotmail.com",
+        "telefone": "(83) 98183-6445",
+        "consultoria": "RENIO"
+      },
+      "data": "2026-04-20T13:24:28.451Z"
+    },
+    {
+      "acao": "CADASTRAR_CLIENTE",
+      "usuario": "62.087.446/0001-52",
+      "detalhes": {
+        "razaoSocial": "Alex Jose da Silva",
+        "email": "alexjose9098@gmail.com",
+        "telefone": "(81) 99353-3841",
+        "consultoria": "RENIO"
+      },
+      "data": "2026-04-20T13:21:37.731Z"
+    },
+    {
+      "acao": "CADASTRAR_CLIENTE",
+      "usuario": "32.241.664/0001-39",
+      "detalhes": {
+        "razaoSocial": "Anderson Alan Porto Info Service LTDA",
+        "email": "financeiro@portofibras.com.br",
+        "telefone": "(75) 99105-7078",
+        "consultoria": "RENIO"
+      },
+      "data": "2026-04-20T13:19:48.413Z"
+    },
+    {
+      "acao": "CADASTRAR_CLIENTE",
+      "usuario": "52.450.778/0001-04",
+      "detalhes": {
+        "razaoSocial": "ADN Net Telecom LTDA",
+        "email": "adnnet0018@gmail.com",
+        "telefone": "(83) 98714-0018",
+        "consultoria": "RENIO"
+      },
+      "data": "2026-04-20T13:18:14.139Z"
+    },
+    {
+      "acao": "CADASTRAR_CLIENTE",
+      "usuario": "52.450.778/0001-04",
+      "detalhes": {
+        "razaoSocial": "ADN Net Telecom LTDA",
+        "email": "adnnet0018@gmail.com",
+        "telefone": "(83) 98714-0018",
+        "consultoria": "renio"
+      },
+      "data": "2026-04-20T13:16:01.205Z"
+    },
+    {
+      "acao": "CADASTRAR_CLIENTE",
+      "usuario": "19.897.357/0001-42",
+      "detalhes": {
+        "razaoSocial": "ACESSO PROVEDOR INTERNET LTDA",
+        "email": "dercia@acessoinformatica.com.br",
+        "telefone": "(51) 99814-4408",
+        "consultoria": "RENIO"
+      },
+      "data": "2026-04-20T13:13:32.216Z"
+    },
+    {
+      "acao": "CADASTRAR_CLIENTE",
+      "usuario": "17.869.753/0001-30",
+      "detalhes": {
+        "razaoSocial": "A Z de Araujo Neto ME",
+        "email": "ultranetfinanceiro@outlook.com",
+        "telefone": "(84) 99993-8999",
+        "consultoria": "RENIO"
+      },
+      "data": "2026-04-20T13:10:29.686Z"
+    },
+    {
+      "acao": "GERAR_CSV_RELATORIO_ECONOMICO",
+      "usuario": "40.219.880/0001-06",
+      "detalhes": {
+        "nomeArquivo": "REL_ECO_LAVAMAISHIGIENIZACAO_SEM1_2026.csv",
+        "semestre": "SEM1",
+        "ano": 2026,
+        "razaoSocial": "LAVAMAIS HIGIENIZACAO"
+      },
+      "data": "2026-04-20T08:36:24.237Z"
+    },
+    {
+      "acao": "GERAR_CSV_STFC",
+      "usuario": "40.219.880/0001-06",
+      "detalhes": {
+        "nomeArquivo": "COLETA_STFC_2026-04-20T01-40-28-456Z.csv"
+      },
+      "data": "2026-04-20T01:40:28.463Z"
+    },
+    {
+      "acao": "GERAR_CSV_SCM",
+      "usuario": "desconhecido",
+      "detalhes": {
+        "nomeArquivo": "SCM_CLIENTE_2026_1.csv",
+        "ano": "2026",
+        "mes": "1"
+      },
+      "data": "2026-04-20T01:40:02.600Z"
+    },
+    {
+      "acao": "GERAR_CSV_TVPA",
+      "usuario": "40.219.880/0001-06",
+      "detalhes": {
+        "nomeArquivo": "TVpA_LAVAMAISHIGIENIZACAO_2026_1.csv",
+        "ano": "2026",
+        "mes": "1",
+        "razao": "LAVAMAISHIGIENIZACAO"
+      },
+      "data": "2026-04-20T01:39:32.565Z"
+    },
+    {
+      "acao": "EDITAR_CLIENTE",
+      "usuario": "40.219.880/0001-06",
+      "detalhes": {
+        "id": "1776375437487",
+        "razaoSocial": "LAVAMAIS HIGIENIZACAO",
+        "email": "lavamaishigienizacao@gmail.com",
+        "telefone": "84 994068574",
+        "consultoria": "DIEGO"
+      },
+      "data": "2026-04-19T16:41:32.858Z"
+    },
+    {
+      "acao": "EDITAR_CLIENTE",
+      "usuario": "40219880000106",
+      "detalhes": {
+        "id": "1776375437487",
+        "razaoSocial": "LAVAMAIS HIGIENIZACAO",
+        "email": "lavamaishigienizacao@gmail.com",
+        "telefone": "84 994068574",
+        "consultoria": "DIEGO"
+      },
+      "data": "2026-04-19T16:38:26.047Z"
+    },
+    {
+      "acao": "GERAR_CSV_STFC",
+      "usuario": "40219880000106",
+      "detalhes": {
+        "nomeArquivo": "COLETA_STFC_2026-04-19T16-09-51-696Z.csv"
+      },
+      "data": "2026-04-19T16:09:51.703Z"
+    },
+    {
+      "acao": "GERAR_CSV_TVPA",
+      "usuario": "40219880000106",
+      "detalhes": {
+        "nomeArquivo": "TVpA_LAVAMAISHIGIENIZACAO_2026_1.csv",
+        "ano": "2026",
+        "mes": "1",
+        "razao": "LAVAMAISHIGIENIZACAO"
+      },
+      "data": "2026-04-19T16:09:31.179Z"
+    },
+    {
+      "acao": "GERAR_CSV_SCM",
+      "usuario": "desconhecido",
+      "detalhes": {
+        "nomeArquivo": "SCM_CLIENTE_2026_1.csv",
+        "ano": "2026",
+        "mes": "1"
+      },
+      "data": "2026-04-19T16:09:12.186Z"
+    }
+  ],
+  "acompanhamentoSCM": {}
+}

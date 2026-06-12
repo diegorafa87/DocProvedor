@@ -32,7 +32,8 @@ exports.listarLogs = (req, res) => {
 // Retorna os meses com dados preenchidos para um cliente específico
 exports.getMesesComDados = (req, res) => {
   const { cnpj } = req.params;
-  const logs = lerLogs();
+  const db = lerDB();
+  const logs = db.logs;
   
   // Mapeia tipos de ação para módulos
   const moduloMap = {
