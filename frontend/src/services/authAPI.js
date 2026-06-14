@@ -38,6 +38,8 @@ export const authAPI = {
   listarMeusClientes: () => api.get('/api/user/meus-clientes'),
   alterarSenhaCliente: (email, senhaAtual, novaSenha) => api.post('/api/user/alterar-senha', { email, senhaAtual, novaSenha }),
   listarTodosUsuarios: () => api.get('/api/user/all'),
+  getClientes: (consultoria) => api.get(`/api/user/clientes?consultoria=${encodeURIComponent(consultoria)}`),
+  validarCliente: (email, consultoria) => api.post('/api/user/validar-cliente', { email, consultoria }),
 };
 
 export default api;

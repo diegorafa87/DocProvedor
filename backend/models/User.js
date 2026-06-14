@@ -5,6 +5,7 @@ const UserSchema = new mongoose.Schema({
   consultoria: { type: String, required: true },
   name: { type: String, default: '' },
   passwordHash: { type: String, required: true }, // senha criptografada
+  isValidated: { type: Boolean, default: false }, // cliente validado pela consultoria
   // outros campos podem ser adicionados aqui
 }, { timestamps: true });
 

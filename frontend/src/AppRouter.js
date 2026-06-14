@@ -9,6 +9,8 @@ import EstacoesPage from './pages/EstacoesPage';
 import SubmenuAcessoCampos from './pages/SubmenuAcessoCampos';
 import EnlacesPropriosPage from './pages/EnlacesPropriosPage';
 import EnlacesContratadosPage from './pages/EnlacesContratadosPage';
+import ConsultoriaLogin from './components/ConsultoriaLogin';
+import ValidarClientesPage from './pages/ValidarClientesPage';
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import PrivateRoute from './components/PrivateRoute';
@@ -49,6 +51,9 @@ const AppRouter = () => {
         <Route path="/cadastro-cliente" element={<CadastroRapidoCliente />} />
         {/* Rota de login do admin */}
         <Route path="/admin-login" element={<AdminLogin />} />
+        {/* Rotas de consultoria */}
+        <Route path="/consultoria-login" element={<ConsultoriaLogin />} />
+        <Route path="/validar-clientes" element={<ValidarClientesPage />} />
         {/* Redirecionamento automático para login se não autenticado ao acessar qualquer rota desconhecida */}
         <Route path="*" element={<PrivateRoute><App /></PrivateRoute>} />
 
