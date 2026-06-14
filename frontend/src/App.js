@@ -89,23 +89,33 @@ function App() {
 
       {/* Botões de filtro de consultoria - apenas para admin */}
       {isAdmin && emailUsuario !== 'dijanjogador123@gmail.com' && (
-        <div style={{ display: 'flex', gap: '1rem', margin: '1rem 0', flexWrap: 'wrap' }}>
-          <button
-            onClick={() => handleFiltroConsultoria('')}
-            style={{ background: consultoriaFiltro === '' ? '#153a6b' : '#eee', color: consultoriaFiltro === '' ? '#fff' : '#153a6b', border: 'none', borderRadius: 4, padding: '0.5rem 1.5rem', fontWeight: 'bold', cursor: 'pointer' }}
-          >
-            Todas
-          </button>
-          {consultorias.map(c => (
+        <>
+          <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '1rem' }}>
             <button
-              key={c}
-              onClick={() => handleFiltroConsultoria(c)}
-              style={{ background: consultoriaFiltro === c ? '#153a6b' : '#eee', color: consultoriaFiltro === c ? '#fff' : '#153a6b', border: 'none', borderRadius: 4, padding: '0.5rem 1.5rem', fontWeight: 'bold', cursor: 'pointer' }}
+              onClick={() => navigate('/admin/usuarios')}
+              style={{ background: '#2563eb', color: '#fff', border: 'none', borderRadius: 4, padding: '0.75rem 1.5rem', fontWeight: 'bold', cursor: 'pointer' }}
             >
-              {c}
+              Criar novo usuário
             </button>
-          ))}
-        </div>
+          </div>
+          <div style={{ display: 'flex', gap: '1rem', margin: '1rem 0', flexWrap: 'wrap' }}>
+            <button
+              onClick={() => handleFiltroConsultoria('')}
+              style={{ background: consultoriaFiltro === '' ? '#153a6b' : '#eee', color: consultoriaFiltro === '' ? '#fff' : '#153a6b', border: 'none', borderRadius: 4, padding: '0.5rem 1.5rem', fontWeight: 'bold', cursor: 'pointer' }}
+            >
+              Todas
+            </button>
+            {consultorias.map(c => (
+              <button
+                key={c}
+                onClick={() => handleFiltroConsultoria(c)}
+                style={{ background: consultoriaFiltro === c ? '#153a6b' : '#eee', color: consultoriaFiltro === c ? '#fff' : '#153a6b', border: 'none', borderRadius: 4, padding: '0.5rem 1.5rem', fontWeight: 'bold', cursor: 'pointer' }}
+              >
+                {c}
+              </button>
+            ))}
+          </div>
+        </>
       )}
 
       <ListaClientes atualizar={atualizar} consultoriaFiltro={filtroFinal} pesquisa={pesquisaConfirmada} />
